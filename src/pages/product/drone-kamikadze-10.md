@@ -4,7 +4,7 @@ date: 2022-02-25T15:04:10.000Z
 tags:
   - drone
 heroImage: /img/img_2188.jpg
-heroTitle: Дрон камікадзе 10"
+heroTitle: Дрон 10"
 heroSubtitle: карбон
 ---
 # Дрон камікадзе 10"
