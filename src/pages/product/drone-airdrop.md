@@ -3,7 +3,7 @@ templateKey: product-item
 date: 2022-02-23T15:04:10.000Z
 tags:
   - drone
-heroImage: /img/screenshot-2023-09-17-at-21.02.22.png
+heroImage: /img/img_7826.jpg
 heroTitle: Дрон 7" з системою скидання
 heroSubtitle: Карбон 7"
 ---
@@ -28,10 +28,10 @@ heroSubtitle: Карбон 7"
 
 Ціна може змінюватись залежно від вхідної ціни на запчастини
 
-![Дрон під скид 1кг](/img/img_7826.jpg)
+![Дрон під скид 1кг]()
 
-![](/img/img_7825.jpg)
+![]()
 
-![](/img/img_7830.jpg)
+![]()
 
-![](/img/img_7828.jpg)
+![]()
