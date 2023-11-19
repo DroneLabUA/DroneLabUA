@@ -7,8 +7,8 @@ heroSubtitle: DroneLab
 ---
 ![](/img/og-image_v1-3.jpg)
 
-Контакти:
+**Контакти:**
 \
 \
-+380 63 782 4948 \
+**+380 63 782 4948** \
 (WhatsApp / Signal)
