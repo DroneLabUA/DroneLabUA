@@ -24,6 +24,7 @@ heroSubtitle: Карбон 7"
 
 На данних дронах можна тренуватися в режимі Acro, та працювати у якості як скидача так і камікадзе.\
 \
+Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. \
 Орієнтовна вартість **21 105** грн 
 
 Ціна може змінюватись залежно від вхідної ціни на запчастини
