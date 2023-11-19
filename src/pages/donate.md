@@ -1,7 +1,7 @@
 ---
 templateKey: donate-page
 path: /donate
-heroImage: /img/og-image_v1-5.jpg
+heroImage: /img/ad-014.jpg
 heroTitle: Контакти
 heroSubtitle: DroneLab
 ---
