@@ -22,5 +22,3 @@ heroSubtitle: виносна антена 50м
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. 
 
 ![](/img/photo_2023-07-31-17.16.31.jpeg)
-
-![](/img/screenshot-2023-09-17-at-20.59.41.png)
