@@ -22,9 +22,9 @@ heroSubtitle: Працює з DJI Mavic 3
 Орієнтовна вартість **23 257** грн \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. 
 
-![Бездротовий ретранслятор 1](/img/img_7841.jpg)
+![Повітряний ретранслятор 2](/img/retranslator-manual.jpeg)
 
-![Повітряний ретранслятор 2](/img/img_7843.jpg)
+![Бездротовий ретранслятор 1](/img/img_7841.jpg)
 
 ![](/img/img_7844.jpg)
 
