@@ -3,7 +3,7 @@ templateKey: product-item
 date: 2022-02-25T15:04:10.000Z
 tags:
   - drone
-heroImage: /img/screenshot-2023-09-26-at-23.12.47.png
+heroImage: /img/img_2145.jpg
 heroTitle: Дрон камікадзе 10"
 heroSubtitle: карбон
 ---
