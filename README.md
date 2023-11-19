@@ -2,9 +2,9 @@
 
 _Web development of DroneLabUA site_
 
-<!-- ### Deploy status
+### Deploy status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/37334a1c-fa1b-4580-8861-722d6c01115f/deploy-status)](https://app.netlify.com/sites/hornetlab/deploys) -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/22b20f60-e905-4a49-bf39-8221eeebe42a/deploy-status)](https://app.netlify.com/sites/dronelabua/deploys)
 
 ### Run
 

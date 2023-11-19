@@ -1,7 +1,7 @@
 ---
 templateKey: donate-page
 path: /donate
-heroImage: /img/hornetlab_logo_v2.svg
+heroImage: /img/og-image_v1-3.jpg
 heroTitle: Контакти
 heroSubtitle: DroneLab
 ---
