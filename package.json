@@ -1,6 +1,6 @@
 {
   "name": "hornetlab-on-netlify-cms",
-  "description": "Web development of HornetLab site",
+  "description": "Web development of DroneLabUA site",
   "version": "1.0.0",
   "author": "Ihor Orlovskyi",
   "dependencies": {

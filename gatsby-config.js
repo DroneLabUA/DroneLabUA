@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "HornetLab",
+    title: "DroneLab",
     description:
-      "HornetLab - дрони-камікадзе, дрони під скид та ретранслятори для фронту",
+      "DroneLabUA - дрони-камікадзе, дрони під скид та ретранслятори для фронту",
   },
   plugins: [
     "gatsby-plugin-fontawesome-css",
