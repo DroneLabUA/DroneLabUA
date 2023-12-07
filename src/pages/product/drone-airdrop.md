@@ -3,7 +3,7 @@ templateKey: product-item
 date: 2022-02-23T15:04:10.000Z
 tags:
   - drone
-heroImage: /img/img_2481.jpg
+heroImage: /img/img_2487.jpg
 heroTitle: 'Дрон "Хмара", 7" з системою скидання '
 heroSubtitle: Карбон 7"
 ---
