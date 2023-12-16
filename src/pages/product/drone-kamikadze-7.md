@@ -3,7 +3,7 @@ templateKey: product-item
 date: 2022-02-24T15:04:10.000Z
 tags:
   - drone
-heroImage: /img/img_2480.jpg
+heroImage: /img/img_2512-1-.jpg
 heroTitle: Дрон "Хмара", 7"
 heroSubtitle: карбон
 ---
