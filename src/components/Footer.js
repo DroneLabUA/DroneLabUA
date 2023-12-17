@@ -1,10 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSkullCrossbones } from '@fortawesome/free-solid-svg-icons'
-
-// import mainlogo from "../img/dronarnia/dronarnia_logo_white.svg";
-// import mainlogo from "../img/hornetlub_logo_v1.png";
+import { faJetFighter } from '@fortawesome/free-solid-svg-icons'
 import mainlogo from "../img/hornetlab_logo_v2.svg";
 
 const Footer = () => {
@@ -93,7 +90,6 @@ return (
         <div className="content has-text-centered">
           <p>
           <Link to="/">
-
             <img
               src={mainlogo}
               alt="Дронарня"
@@ -103,9 +99,28 @@ return (
           </p>
           <p>
             <small>
-              DroneLab © 2023<br/>
-              Кохайтеся, чорнобриві, та не з москалями! <FontAwesomeIcon icon={faSkullCrossbones} size="1x" />
-          </small>
+              <FontAwesomeIcon 
+                icon={faJetFighter} 
+                // style={{ color: "#DFAC00" }} 
+                rotation={180} 
+              />
+              &emsp;
+              Борітеся - поборете!
+              &emsp;
+              <FontAwesomeIcon
+                icon={faJetFighter}
+                // style={{ color: "#DFAC00" }}
+              />
+              <br/>
+              DroneLab © 2023
+              <br/>
+              <br/>
+              <FontAwesomeIcon
+                icon={faJetFighter}
+                // style={{ color: "#DFAC00" }}
+                rotation={90}
+              />
+            </small>
           </p>
         </div>
       </div>

@@ -1,12 +1,12 @@
 {
-  "name": "hornetlab-on-netlify-cms",
+  "name": "dronelab-on-netlify-cms",
   "description": "Web development of DroneLabUA site",
   "version": "1.0.0",
   "author": "Ihor Orlovskyi",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.34",
-    "@fortawesome/free-solid-svg-icons": "^5.15.2",
-    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "bulma": "^0.9.0",
     "gatsby": "^4.0.0",
     "gatsby-plugin-fontawesome-css": "^1.2.0",
