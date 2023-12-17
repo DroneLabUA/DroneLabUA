@@ -3,11 +3,11 @@ templateKey: product-item
 date: 2022-02-24T15:04:10.000Z
 tags:
   - drone
-heroImage: /img/img_2145.jpg
-heroTitle: Дрон 7"
+heroImage: /img/img_2512-1-.jpg
+heroTitle: Дрон "Хмара", 7"
 heroSubtitle: карбон
 ---
-# Дрон 7"
+# Дрон "Хмара", 7" 
 
 | ТТХ                                            |           |
 | ---------------------------------------------- | --------- |
@@ -23,5 +23,4 @@ heroSubtitle: карбон
 
 Орієнтовна вартість **19 300** грн.
 
-Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. 
-
+Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
