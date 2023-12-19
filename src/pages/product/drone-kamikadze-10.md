@@ -1,5 +1,4 @@
 ---
-isVisible: true
 templateKey: product-item
 date: 2022-02-25T15:04:10.000Z
 tags:
@@ -7,6 +6,7 @@ tags:
 heroImage: /img/img_2188.jpg
 heroTitle: FPV Дрон "Хмара", 10"
 heroSubtitle: карбон
+isVisible: true
 ---
 # Дрон "Хмара", 10" 
 

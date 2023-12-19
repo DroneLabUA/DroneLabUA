@@ -1,5 +1,4 @@
 ---
-isVisible: true
 templateKey: product-item
 date: 2022-02-23T15:04:10.000Z
 tags:
@@ -7,6 +6,7 @@ tags:
 heroImage: /img/img_2487.jpg
 heroTitle: 'Дрон "Хмара", 7" з системою скидання '
 heroSubtitle: Карбон 7"
+isVisible: true
 ---
 # FPV дрон "Хмара" з системою скидання, карбонова рама 7"
 

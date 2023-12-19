@@ -1,5 +1,4 @@
 ---
-isVisible: true
 templateKey: product-item
 date: 2022-02-24T15:04:10.000Z
 tags:
@@ -7,6 +6,7 @@ tags:
 heroImage: /img/img_2512-1-.jpg
 heroTitle: Дрон "Хмара", 7"
 heroSubtitle: карбон
+isVisible: true
 ---
 # Дрон "Хмара", 7" 
 
