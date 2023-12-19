@@ -6,7 +6,7 @@ isVisible: true
 heroSubtitle: Працює з DJI Mavic 3
 tags:
   - repeater
-isVsible: true
+isVsible: false
 heroTitle: Бездротовий ретранслятор
 ---
 # Бездротовий ретранслятор, для встановлення на Dji Mavic3
