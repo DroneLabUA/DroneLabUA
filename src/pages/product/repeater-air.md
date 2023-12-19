@@ -1,12 +1,12 @@
 ---
 templateKey: product-item
+isVisible: false
 date: 2022-02-22T15:04:10.000Z
 heroImage: /img/screenshot-2023-09-17-at-19.06.12.png
 heroSubtitle: Працює з DJI Mavic 3
 tags:
   - repeater
 heroTitle: Бездротовий ретранслятор
-isVisible: true
 ---
 # Бездротовий ретранслятор, для встановлення на Dji Mavic3
 
