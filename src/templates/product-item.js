@@ -7,6 +7,8 @@ import { graphql, Link } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons'
 
 import Layout from "../components/Layout";
 import FullWidthImage from "../components/FullWidthImage";
@@ -15,6 +17,7 @@ import FeatureRoll from "../components/ProductList";
 
 // eslint-disable-next-line
 export const ProductItemTemplate = ({
+  isVisible,
   heroImage,
   heroTitle,
   heroSubtitle,
@@ -36,52 +39,14 @@ export const ProductItemTemplate = ({
 
         <div className="container content">
           <div className="columns">
-            {/* <div className="column is-2">
-              <Link className="button is-light" to="/">
-                <FontAwesomeIcon icon={faArrowCircleLeft} size="1x" />
-              </Link>
-            </div> */}
 
             <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
               
+              {isVisible ? <PostContent className="mb-6" content={content} /> : <div class="notification is-danger"><FontAwesomeIcon icon={faTriangleExclamation} /> This product is <b>hiden</b>. <br/> Also it is hiden from <b>Navbar Menu</b> and from <b>Product List</b>.</div> }
 
-              {/* <div className="container content">
-                <div className="columns">
-                  <div className="column is-6 is-6-fullhd">
-                    // <FullWidthImage img={postImage} imgPosition={"50% center"} />
-                  </div>
-                  <div className="column is-6 is-6-fullhd">
-                    <h1 className="title is-size-1 is-size-3-touch mb-6">{title}</h1>
-                    <h3 className="mb-6">{description}</h3>
-                  </div>
-                </div>
+              <div className="pt-6 pb-6">
+                <FeatureRoll />
               </div>
-
-              <h1 className="title is-size-1 is-size-3-touch mb-6">{title}</h1>
-              <h3 className="mb-6">{description}</h3> */}
-              {/* <div className="mb-6">
-                // <FullWidthImage img={postImage} imgPosition={"50% center"} />
-              </div> */}
-
-              <PostContent className="mb-6" content={content} />
-
-              {/* <section className="section"> */}
-                {/* <div className="pt-6 pb-6 has-text-centered">
-                  <Link className="button is-warning is-large is-responsive" to="/donate">Контакти</Link>
-                </div> */}
-              {/* </section> */}
-
-              {/* <section className="section"> */}
-                <div className="pt-6 pb-6">
-                  {/* <div className="container"> */}
-                    {/* <div className="columns"> */}
-                      {/* <div className="column is-12"> */}
-                        <FeatureRoll />
-                      {/* </div> */}
-                    {/* </div> */}
-                  {/* </div> */}
-                </div>
-              {/* </section> */}
 
             </div>
           </div>
@@ -92,6 +57,7 @@ export const ProductItemTemplate = ({
 };
 
 ProductItemTemplate.propTypes = {
+  isVisible: PropTypes.bool,
   heroImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   heroTitle: PropTypes.string,
   heroSubtitle: PropTypes.string,
@@ -106,6 +72,7 @@ const ProductItem = ({ data }) => {
   return (
     <Layout>
       <ProductItemTemplate
+        isVisible={post.frontmatter.isVisible}
         heroImage={post.frontmatter.heroImage}
         heroTitle={post.frontmatter.heroTitle}
         heroSubtitle={post.frontmatter.heroSubtitle}
@@ -141,6 +108,7 @@ export const ProductItemQuery = graphql`
       id
       html
       frontmatter {
+        isVisible
         date(formatString: "MMMM DD, YYYY")
         heroImage {
           childImageSharp {

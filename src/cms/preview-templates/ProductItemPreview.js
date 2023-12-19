@@ -8,6 +8,7 @@ const ProductItemPreview = ({ entry, getAsset, widgetFor }) => {
   if (data) {
     return (
       <ProductItemTemplate
+        isVisible={data.isVisible}
         heroImage={getAsset(data.heroImage)}
         heroTitle={data.heroTitle}
         heroSubtitle={data.heroSubtitle}

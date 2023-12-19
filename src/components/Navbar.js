@@ -41,9 +41,16 @@ const NavbarTemplate = (props) => {
 
               <div className="navbar-dropdown">
                 {posts && posts.map(({ node: post }) => (
-                  <Link to={post.fields.slug} key={post.id} className="navbar-item" activeClassName="is-active">
-                    {post.frontmatter.heroTitle}
-                  </Link>
+                  (() => {
+                    if (post.frontmatter.isVisible){
+                      return (
+                        <Link to={post.fields.slug} key={post.id} className="navbar-item" activeClassName="is-active">
+                          {post.frontmatter.heroTitle}
+                        </Link>
+                      )
+                    }
+                    return null;
+                  })()
                 ))}
               </div>
             </div>
@@ -95,6 +102,7 @@ export default function Navbar() {
                   slug
                 }
                 frontmatter {
+                  isVisible
                   heroTitle
                   heroSubtitle
                   templateKey

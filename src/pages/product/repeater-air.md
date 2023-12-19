@@ -1,4 +1,5 @@
 ---
+isVisible: true
 templateKey: product-item
 date: 2022-02-22T15:04:10.000Z
 tags:
