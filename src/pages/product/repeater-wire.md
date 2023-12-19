@@ -1,12 +1,13 @@
 ---
-isVisible: true
 templateKey: product-item
 date: 2022-02-21T15:04:10.000Z
+heroImage: /img/screenshot-2023-08-02-at-21.03.18.png
+isVisible: true
+heroSubtitle: виносна антена 50м
 tags:
   - repeater
-heroImage: /img/screenshot-2023-08-02-at-21.03.18.png
+isVsible: true
 heroTitle: Наземна антена
-heroSubtitle: виносна антена 50м
 ---
 Виносна антена
 
