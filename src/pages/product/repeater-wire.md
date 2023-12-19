@@ -6,7 +6,7 @@ isVisible: true
 heroSubtitle: виносна антена 50м
 tags:
   - repeater
-isVsible: true
+isVsible: false
 heroTitle: Наземна антена
 ---
 Виносна антена
