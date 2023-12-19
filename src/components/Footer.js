@@ -113,13 +113,13 @@ return (
               />
               <br/>
               DroneLab © 2023
-              <br/>
+              {/* <br/>
               <br/>
               <FontAwesomeIcon
                 icon={faJetFighter}
                 // style={{ color: "#DFAC00" }}
                 rotation={90}
-              />
+              /> */}
             </small>
           </p>
         </div>
