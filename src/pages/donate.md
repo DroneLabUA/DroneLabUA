@@ -9,6 +9,10 @@ heroSubtitle: DroneLab
 
 **Контакти:**
 \
-\
 **+380 63 782 4948** \
-(WhatsApp / Signal)
+(WhatsApp / Signal)\
+\
+\
+**Монобанка** для підтримки діяльності майстерні:
+
+https://send.monobank.ua/jar/9rdNThoQQo
