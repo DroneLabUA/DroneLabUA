@@ -5,7 +5,7 @@ date: 2022-02-24T15:04:10.000Z
 tags:
   - drone
 heroImage: /img/img_2512-1-.jpg
-heroTitle: FPV Дрон "Хмара", 7"
+heroTitle: FPV Дрон камікадзе "Хмара", 7"
 heroSubtitle: карбон
 ---
 # Дрон "Хмара", 7"
