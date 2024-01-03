@@ -1,12 +1,12 @@
 ---
 templateKey: product-item
+isVisible: true
 date: 2022-02-23T15:04:10.000Z
 tags:
   - drone
-heroImage: /img/img_2487.jpg
+heroImage: /img/ams_1717-edit.jpg
 heroTitle: 'Дрон "Хмара", 7" з системою скидання '
 heroSubtitle: Карбон 7"
-isVisible: true
 ---
 # FPV дрон "Хмара" з системою скидання, карбонова рама 7"
 
@@ -15,12 +15,12 @@ isVisible: true
 | Корисне навантаження                           | 1 кг      |
 | Максимальна дистанція з корисним навантаженням | 14.5 км   |
 | Крейсерська швидкість                          | 60 км\год |
-| Р﻿ама                                           | карбон    |
+| Р﻿ама                                          | карбон    |
 | Пропелери                                      | 7"        |
 | FC SpeedyBee                                   | F405, 50A |
-|﻿ VTX 5.8                                        |2.5W       |    
-|﻿ Керування                                      |Crossfire  |    
-| Система скиду "Cталеві шершні"                 |B2         |   
+| ﻿ VTX 5.8                                      | 2.5W      |
+| ﻿ Керування                                    | Crossfire |
+| Система скиду "Cталеві шершні"                 | B2        |
 | АКБ (molicel 21700 42P)                        | 8400 mAh  |
 
 \
@@ -28,3 +28,5 @@ isVisible: true
 \
 Орієнтовна вартість **22 300** грн \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+
+![](/img/ams_1722-edit.jpg)
