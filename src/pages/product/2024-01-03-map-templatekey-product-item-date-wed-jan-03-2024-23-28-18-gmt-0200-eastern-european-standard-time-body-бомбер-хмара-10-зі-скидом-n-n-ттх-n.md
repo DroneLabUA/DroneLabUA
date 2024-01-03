@@ -15,7 +15,7 @@ heroSubtitle: карбон
 | Крейсерська швидкість              | 60 км\год |
 | ﻿Рама (Deadcat)                     | карбон    |
 | Пропелери HQProp                   | 10"       |
-| FC SpeedyBee V3                    | F405      |
+| FC SpeedyBee                       | F405, V3  | 
 | ESC                                | 4 x 45A   |
 | VTX Rush Max SOLO 5.8GHz           | 2.5 W     |
 | ﻿Керування                          | Crossfire |
