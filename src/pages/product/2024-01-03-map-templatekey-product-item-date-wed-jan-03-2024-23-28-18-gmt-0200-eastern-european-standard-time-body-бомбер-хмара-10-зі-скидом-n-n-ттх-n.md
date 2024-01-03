@@ -3,7 +3,7 @@ templateKey: product-item
 isVisible: true
 date: 2024-01-03T21:28:18.330Z
 heroImage: /img/ams_1729-edit.jpg
-heroTitle: FPV Дрон "Хмара", 10" зі скидом
+heroTitle: FPV Дрон "Хмара", 10" з системою скидання
 heroSubtitle: карбон
 ---
 # Бомбер "Хмара", 10" зі скидом
