@@ -5,10 +5,10 @@ date: 2022-02-25T15:04:10.000Z
 tags:
   - drone
 heroImage: /img/ams_1697-edit.jpg
-heroTitle: FPV Дрон камікадзе "Хмара", 10"
-heroSubtitle: карбон
+heroTitle: FPV Дрон камікадзе HMARA 10"
+heroSubtitle: Carbon
 ---
-# Дрон камікадзе "Хмара", 10"
+# Дрон камікадзе HMARA 10"
 
 | **ТТХ**                            |           |
 | ---------------------------------- | --------- |
@@ -28,7 +28,5 @@ heroSubtitle: карбон
 
 Орієнтовна вартість **28 900** грн.\
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
-
-
 
 ![](/img/ams_1735-edit.jpg)
