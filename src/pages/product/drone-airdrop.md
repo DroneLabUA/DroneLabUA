@@ -4,7 +4,7 @@ isVisible: true
 date: 2022-02-23T15:04:10.000Z
 tags:
   - drone
-heroImage: /img/ams_1717-edit.jpg
+heroImage: /img/ams_1722-edit.jpg
 heroTitle: 'FPV Дрон "Хмара", 7" з системою скидання '
 heroSubtitle: Карбон 7"
 ---
