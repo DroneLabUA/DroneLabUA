@@ -4,7 +4,7 @@ isVisible: true
 date: 2022-02-25T15:04:10.000Z
 tags:
   - drone
-heroImage: /img/img_2188.jpg
+heroImage: /img/ams_1697-edit.jpg
 heroTitle: FPV Дрон камікадзе "Хмара", 10"
 heroSubtitle: карбон
 ---
