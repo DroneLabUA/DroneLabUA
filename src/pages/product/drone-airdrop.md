@@ -6,7 +6,7 @@ tags:
   - drone
 heroImage: /img/ams_1722-edit.jpg
 heroTitle: 'FPV Дрон HMARA 7" з системою скидання '
-heroSubtitle: Карбон
+heroSubtitle: Carbon
 ---
 # FPV дрон HMARA 7" з системою скидання
 
