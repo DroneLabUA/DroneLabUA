@@ -5,10 +5,10 @@ date: 2022-02-24T15:04:10.000Z
 tags:
   - drone
 heroImage: /img/ams_1711-edit.jpg
-heroTitle: FPV Дрон камікадзе "Хмара", 7"
-heroSubtitle: карбон
+heroTitle: FPV Дрон камікадзе HMARA 7"
+heroSubtitle: Carbon
 ---
-# Дрон камікадзе "Хмара", 7"
+# Дрон камікадзе HMARA 7"
 
 | **ТТХ**                            |           |
 | ---------------------------------- | --------- |
@@ -29,7 +29,5 @@ heroSubtitle: карбон
 Орієнтовна вартість **19 800** грн.
 
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
-
-
 
 ![](/img/ams_1709-edit.jpg)
