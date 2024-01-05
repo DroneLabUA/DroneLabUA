@@ -15,11 +15,11 @@ heroSubtitle: Карбон
 | Корисне навантаження                           | \> 1.5 кг |
 | Максимальна дистанція з корисним навантаженням | 14.5 км   |
 | Крейсерська швидкість                          | 60 км\год |
-| Р﻿ама                                           | карбон    |
+| Р﻿ама                                          | карбон    |
 | Пропелери HQProp                               | 7"        |
 | FC SpeedyBee V3                                | F405, 50A |
-| ﻿VTX Rush Max SOLO 5.8GHz                       | 2.5W      |
-| ﻿Керування                                      | Crossfire |
+| ﻿VTX Rush Max SOLO 5.8GHz                      | 2.5W      |
+| ﻿Керування                                     | Crossfire |
 | АКБ 6S2P (molicel 21700 42P)                   | 8400 mAh  |
 | Система скиду "Cталеві шершні"                 | B2        |
 | Вага дрона з АКБ                               | 1.55 кг   |
@@ -30,4 +30,4 @@ heroSubtitle: Карбон
 Орієнтовна вартість **22 300** грн \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
-![](/img/ams_1722-edit.jpg)
+![](/img/ams_1717-edit.jpg)
