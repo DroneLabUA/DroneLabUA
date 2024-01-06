@@ -9,35 +9,40 @@ const ProductListTemplate = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
 
   return (
-    <div className="">
-      <p className="is-size-5 is-size-6-touch mb-5">Наші вироби:</p>
-      <div className="columns is-multiline has-text-centered">
-        {posts && posts.map(({ node: post }) => (
+    <section className="section">
+      <div className="container pb-6">
+        <div className="columns">
+          <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
+            <p className="is-size-5 is-size-6-touch mb-5">Наші вироби:</p>
+            <div className="columns is-multiline has-text-centered">
+              {posts && posts.map(({ node: post }) => (
 
-          (() => {
-            if (post.frontmatter.isVisible){
-              return (
-                <div className="column is-3" key={post.id}>
-                  <div>
-                    <div className="mb-3">
-                      <Link to={post.fields.slug}>
-                        <PreviewCompatibleImage imageInfo={post.frontmatter.heroImage} />
-                      </Link>
-                    </div>
-                    <div className="mb-4">
-                      <div className="mb-2 is-size-5">{post.frontmatter.heroTitle}</div>
-                      <div className="heading mb-0">{post.frontmatter.heroSubtitle}</div>
-                    </div>
-                  </div>
-                </div>
-              )
-            }
-            return null;
-          })()
-          
-        ))}
+                (() => {
+                  if (post.frontmatter.isVisible){
+                    return (
+                      <div className="column is-3" key={post.id}>
+                        <div>
+                          <div className="mb-3">
+                            <Link to={post.fields.slug}>
+                              <PreviewCompatibleImage imageInfo={post.frontmatter.heroImage} />
+                            </Link>
+                          </div>
+                          <div className="mb-4">
+                            <div className="mb-2 is-size-5">{post.frontmatter.heroTitle}</div>
+                            <div className="heading mb-0">{post.frontmatter.heroSubtitle}</div>
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  }
+                  return null;
+                })()
+              ))}
+            </div>
+          </div>      
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 

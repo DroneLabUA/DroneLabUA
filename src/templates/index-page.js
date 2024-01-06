@@ -27,76 +27,19 @@ export const IndexPageTemplate = ({
   return (
     <div>
       {helmet || ""}
-
       <FullWidthImage img={herroImage} heading={heroTitle} subheading={heroSubtitle} />
-
-      {/* <section className="section">
-        <div className="container">
-          <section className="section">
-            <div className="columns">
-              <div className="column is-12 is-10-fullhd is-offset-1-fullhd">
-                <BlogRoll />
-              </div>
-            </div>
-          </section>
-        </div>
-      </section> */}
-
-      {/* <FullWidthImage img={fullImage} imgPosition={"50% center"} /> */}
-
       <section className="section">
         <div className="pt-6 pb-6">
           <div className="container">
             <div className="columns">
               <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
-                {/* <p><img src="../img/about_1_2.jpg" alt="DroneLab Logo" width="200" className="mb-6"/></p> */}
-                {/* <h1 className="title is-size-1 is-size-3-touch has-text-centered is-uppercase mb-6">{title}</h1> */}
                 <PageContent className="content is-size-5 is-size-6-touch" content={content} />
               </div>
             </div>
           </div>
         </div>
-
-
-        {/* <div className="pt-6 pb-6 has-text-centered">
-          <Link className="button is-warning is-large is-responsive" to="/donate">Контакти</Link>
-        </div> */}
-
-      {/* </section>
-
-      <section className="section"> */}
-        <div className="pt-6 pb-6">
-          <div className="container">
-            <div className="columns">
-              <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
-                <ProductList />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* <div className="pt-6 pb-6">
-          <div className="container">
-            <div className="columns">
-              <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
-                <PartnerList />
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-      {/* </section>
-
-      <section className="section"> */}
       </section>
-
-      {/* <section className="section" style={{backgroundColor: "#f3f1f1"}}>
-        <div className="pt-6 pb-6">
-          <h1 className="title is-size-1 is-size-3-touch has-text-centered is-uppercase mb-6">{intro.heading}</h1>
-          <Partners gridItems={intro.blurbs} />
-        </div>
-      </section> */}
-
+      <ProductList />
     </div>
   );
 };

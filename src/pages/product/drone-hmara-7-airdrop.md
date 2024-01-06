@@ -5,9 +5,11 @@ date: 2022-02-23T15:04:10.000Z
 tags:
   - drone
 heroImage: /img/ams_1722-edit.jpg
-heroTitle: 'FPV Дрон HMARA 7" з системою скидання '
+heroTitle: FPV Дрон HMARA 7" з системою скидання
 heroSubtitle: Carbon
 ---
+![](/img/ams_1722-edit.jpg)
+
 # FPV дрон HMARA 7" з системою скидання
 
 | ТТХ                                            |           |

@@ -1,12 +1,16 @@
 ---
 templateKey: product-item
 isVisible: true
-date: 2024-01-03T21:28:18.330Z
-heroImage: /img/ams_1729-edit.jpg
-heroTitle: FPV Дрон HMARA 10" з системою скидання
+date: 2022-02-25T15:04:10.000Z
+tags:
+  - drone
+heroImage: /img/ams_1697-edit.jpg
+heroTitle: FPV Дрон камікадзе HMARA 10"
 heroSubtitle: Carbon
 ---
-# Бомбер HMARA 10" з системою скидання
+![](/img/ams_1697-edit.jpg)
+
+# Дрон камікадзе HMARA 10"
 
 | **ТТХ**                            |           |
 | ---------------------------------- | --------- |
@@ -20,12 +24,11 @@ heroSubtitle: Carbon
 | VTX Rush Max SOLO 5.8GHz           | 2.5 W     |
 | ﻿Керування                         | Crossfire |
 | АКБ 6S3P (molicel 21700 42P)       | 12600 mAh |
-| Система скиду "Cталеві шершні"     | B2        |
 | Вага дрона з АКБ                   | 2.3 кг    |
 
 Усі дрони тестуються на полігоні з відповідним навантаженням.
 
-Орієнтовна вартість **31 500** грн.\
+Орієнтовна вартість **28 900** грн.\
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
 ![](/img/ams_1735-edit.jpg)

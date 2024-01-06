@@ -11,7 +11,7 @@ import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import FullWidthImage from "../components/FullWidthImage";
 import Content, { HTMLContent } from "../components/Content";
-import FeatureRoll from "../components/ProductList";
+import ProductList from "../components/ProductList";
 
 // eslint-disable-next-line
 export const PartnerItemTemplate = ({
@@ -27,64 +27,21 @@ export const PartnerItemTemplate = ({
 
   return (
     <div>
+      {helmet || ""}
       <FullWidthImage img={herroImage} heading={heroTitle} subheading={heroSubtitle} imgPosition={"50% center"} />
-
       <section className="section">
-        {helmet || ""}
-
         <div className="container content">
           <div className="columns">
-            {/* <div className="column is-2">
-              <Link className="button is-light" to="/">
-                <FontAwesomeIcon icon={faArrowCircleLeft} size="1x" />
-              </Link>
-            </div> */}
-
             <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
-              
-
-              {/* <div className="container content">
-                <div className="columns">
-                  <div className="column is-6 is-6-fullhd">
-                    <FullWidthImage img={postImage} imgPosition={"50% center"} />
-                  </div>
-                  <div className="column is-6 is-6-fullhd">
-                    <h1 className="title is-size-1 is-size-3-touch mb-6">{title}</h1>
-                    <h3 className="mb-6">{description}</h3>
-                  </div>
-                </div>
-              </div>
-
-              <h1 className="title is-size-1 is-size-3-touch mb-6">{title}</h1>
-              <h3 className="mb-6">{description}</h3> */}
-              {/* <div className="mb-6">
-                <FullWidthImage img={postImage} imgPosition={"50% center"} />
-              </div> */}
-
               <PostContent className="mb-6" content={content} />
-
-              {/* <section className="section"> */}
                 <div className="pt-6 pb-6 has-text-centered">
                   <Link className="button is-warning is-large is-responsive" to="/donate">Контакти</Link>
                 </div>
-              {/* </section> */}
-
-              {/* <section className="section"> */}
-                <div className="pt-6 pb-6">
-                  {/* <div className="container"> */}
-                    {/* <div className="columns"> */}
-                      {/* <div className="column is-12"> */}
-                        <FeatureRoll />
-                      {/* </div> */}
-                    {/* </div> */}
-                  {/* </div> */}
-                </div>
-              {/* </section> */}
-
             </div>
           </div>
         </div>
       </section>
+      <ProductList />
     </div>
   );
 };

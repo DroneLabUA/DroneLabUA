@@ -8,6 +8,8 @@ heroImage: /img/ams_1711-edit.jpg
 heroTitle: FPV Дрон камікадзе HMARA 7"
 heroSubtitle: Carbon
 ---
+![](/img/ams_1711-edit.jpg)
+
 # Дрон камікадзе HMARA 7"
 
 | **ТТХ**                            |           |

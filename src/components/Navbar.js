@@ -4,6 +4,7 @@ import { Link, graphql, StaticQuery } from "gatsby";
 
 import mainlogo from "../img/hornetlab_logo_v2.svg";
 // import mainlogo from "../img/hornetlub_logo_v1.png";
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const NavbarTemplate = (props) => {
   const [isActive, setIsActive] = useState(false);
@@ -45,6 +46,10 @@ const NavbarTemplate = (props) => {
                     if (post.frontmatter.isVisible){
                       return (
                         <Link to={post.fields.slug} key={post.id} className="navbar-item" activeClassName="is-active">
+                          <span style={{width: "50px"}}>
+                            <PreviewCompatibleImage imageInfo={post.frontmatter.heroImage}/>
+                          </span>
+                          &nbsp;
                           {post.frontmatter.heroTitle}
                         </Link>
                       )

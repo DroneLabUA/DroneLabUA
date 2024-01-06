@@ -11,9 +11,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons'
 
 import Layout from "../components/Layout";
-import FullWidthImage from "../components/FullWidthImage";
+// import FullWidthImage from "../components/FullWidthImage";
+// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Content, { HTMLContent } from "../components/Content";
-import FeatureRoll from "../components/ProductList";
+import ProductList from "../components/ProductList";
 
 // eslint-disable-next-line
 export const ProductItemTemplate = ({
@@ -32,27 +33,19 @@ export const ProductItemTemplate = ({
 
   return (
     <div>
-      <FullWidthImage img={herroImage} heading={heroTitle} subheading={heroSubtitle} imgPosition={"50% center"} />
-
+      {helmet || ""}
       <section className="section">
-        {helmet || ""}
-
         <div className="container content">
           <div className="columns">
-
             <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
-              
               {isVisible ? <PostContent className="mb-6" content={content} /> : <div class="notification is-danger"><FontAwesomeIcon icon={faTriangleExclamation} /> This product is <b>hiden</b>. <br/> Also it is hiden from <b>Navbar Menu</b> and from <b>Product List</b>.</div> }
-
-              <div className="pt-6 pb-6">
-                <FeatureRoll />
-              </div>
-
             </div>
           </div>
         </div>
       </section>
-    </div>
+      <ProductList />
+      </div>
+
   );
 };
 
