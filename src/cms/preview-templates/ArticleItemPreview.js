@@ -4,6 +4,7 @@ import { ArticleItemTemplate } from '../../templates/article-item'
 
 const ArticleItemPreview = ({ entry, getAsset, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
+  const wikiCategories = entry.getIn(['wikiCategories'])
 
   if (data) {
     return (
@@ -13,6 +14,7 @@ const ArticleItemPreview = ({ entry, getAsset, widgetFor }) => {
         heroTitle={data.heroTitle}
         heroSubtitle={data.heroSubtitle}
         content={widgetFor('body')}
+        wikiCategories={wikiCategories && wikiCategories.toJS()}
       />
     )
   } else {
