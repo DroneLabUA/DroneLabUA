@@ -2,13 +2,13 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-12T15:04:10.000Z
-tags:
-  - wikirepeater
+heroImage: /img/screenshot-2023-09-17-at-19.06.12.png
+heroTitle: FC Mamba F722
+heroSubtitle: Mamba MK4 F722 APP + ESC
 wikiCategories:
   - PDB
-heroImage: /img/screenshot-2023-09-17-at-19.06.12.png
-heroTitle: Mamba
-heroSubtitle: Mamba
+tags:
+  - wikirepeater
 ---
 # Mamba
 
@@ -25,4 +25,4 @@ heroSubtitle: Mamba
 Орієнтовна вартість **23 257** грн \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. 
 
-![Повітряний ретранслятор 2](/img/retranslator3-3-.jpg)
+![Повітряний ретранслятор 2](/img/screenshot-2024-02-04-at-01.13.03.png)
