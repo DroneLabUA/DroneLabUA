@@ -81,7 +81,7 @@ collections:
       - { label: Hero Subtitle, name: heroSubtitle, widget: string }
       - { label: Body, name: body, widget: markdown }
       - { label: Wiki Categories, name: wikiCategories, widget: list }
- - name: "partner"
+  - name: "partner"
     label: "Партнери"
     folder: "src/pages/partner"
     create: true
