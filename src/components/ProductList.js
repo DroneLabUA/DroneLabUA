@@ -21,16 +21,14 @@ const ProductListTemplate = (props) => {
                   if (post.frontmatter.isVisible){
                     return (
                       <div className="column is-3" key={post.id}>
-                        <div>
-                          <div className="mb-3">
-                            <Link to={post.fields.slug}>
-                              <PreviewCompatibleImage imageInfo={post.frontmatter.heroImage} />
-                            </Link>
-                          </div>
-                          <div className="mb-4">
-                            <div className="mb-2 is-size-5">{post.frontmatter.heroTitle}</div>
-                            <div className="heading mb-0">{post.frontmatter.heroSubtitle}</div>
-                          </div>
+                        <div className="mb-3">
+                          <Link to={post.fields.slug}>
+                            <PreviewCompatibleImage imageInfo={post.frontmatter.heroImage} />
+                          </Link>
+                        </div>
+                        <div className="mb-4">
+                          <div className="mb-2 is-size-5">{post.frontmatter.heroTitle}</div>
+                          <div className="heading mb-0">{post.frontmatter.heroSubtitle}</div>
                         </div>
                       </div>
                     )

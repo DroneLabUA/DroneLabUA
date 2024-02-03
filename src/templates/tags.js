@@ -3,16 +3,16 @@ import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 
-const TagRoute = (props) =>  {
+const TagsRoute = (props) =>  {
 
     const posts = props.data.allMarkdownRemark.edges;
 
     const postLinks = posts.map((post) => (
-      <li key={post.node.fields.slug}>
+      <p key={post.node.fields.slug}>
         <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
+          <span className="">{post.node.frontmatter.heroTitle}</span>
         </Link>
-      </li>
+      </p>
     ));
 
     const { tag } = props.pageContext;
@@ -28,15 +28,14 @@ const TagRoute = (props) =>  {
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
             <div className="columns">
-              <div
-                className="column is-10 is-offset-1"
-                style={{ marginBottom: "6rem" }}
-              >
-                <p className="title is-size-5 is-bold-light">{tagHeader}</p>
-                <p className="">{postLinks}</p>
-                <p>
-                  <Link to="/tags/">Browse all tags</Link>
-                </p>
+              <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
+                <div className="content mb-6">
+
+                  <p className="title is-size-5 is-bold-light">{tagHeader}</p>
+                  <p className="">{postLinks}</p>
+                  <p><Link className="button is-info" to="/tags/">Browse all tags</Link></p>
+
+                </div>
               </div>
             </div>
           </div>
@@ -45,10 +44,10 @@ const TagRoute = (props) =>  {
     );
 }
 
-export default TagRoute;
+export default TagsRoute;
 
-export const tagPageQuery = graphql`
-  query TagPage($tag: String) {
+export const tagsPageQuery = graphql`
+  query TagsPage($tag: String) {
     site {
       siteMetadata {
         title
@@ -66,7 +65,7 @@ export const tagPageQuery = graphql`
             slug
           }
           frontmatter {
-            title
+            heroTitle
           }
         }
       }

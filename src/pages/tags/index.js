@@ -17,11 +17,11 @@ const TagsPage = ({
       <Helmet title={`Tags | ${title}`} />
       <div className="container content">
         <div className="columns">
-          <div
-            className="column is-10 is-offset-1"
-            style={{ marginBottom: "6rem" }}
-          >
-            <h1 className="title is-size-2 is-bold-light">Tags</h1>
+          <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
+            
+            <div className="content mb-6">
+
+              <h1 className="title is-size-2 is-bold-light">Tags</h1>
               {group.map((tag) => (
                 <p key={tag.fieldValue}>
                   <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
@@ -29,6 +29,8 @@ const TagsPage = ({
                   </Link>
                 </p>
               ))}
+              
+            </div>
           </div>
         </div>
       </div>

@@ -59,12 +59,15 @@ const NavbarTemplate = (props) => {
                 ))}
               </div>
             </div>
+            {/* <Link className="navbar-item" activeClassName="is-active" to="/wiki">База знань</Link> */}
+            {/* <Link className="navbar-item" activeClassName="is-active" to="/tags">Tags</Link> */}
+
 
           </div>
           <div className="navbar-end">
-            {/* <Link className="navbar-item" activeClassName="is-active" to="/faq">Часті Запитання</Link>
-            <Link className="navbar-item" activeClassName="is-active" to="/blog">Хроніки</Link>
-            <Link className="navbar-item" activeClassName="is-active" to="/products">Ветеранка</Link> */}
+            {/* <Link className="navbar-item" activeClassName="is-active" to="/faq">Часті Запитання</Link> */}
+            {/* <Link className="navbar-item" activeClassName="is-active" to="/blog">Хроніки</Link> */}
+            {/* <Link className="navbar-item" activeClassName="is-active" to="/products">Ветеранка</Link> */}
             <div className="navbar-item">
               <div className="buttons has-addons is-centered">
                 <Link className="button is-warning" to="/donate">Контакти</Link>

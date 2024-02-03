@@ -62,7 +62,26 @@ collections:
       - { label: Hero Title, name: heroTitle, widget: string }
       - { label: Hero Subtitle, name: heroSubtitle, widget: string }
       - { label: Body, name: body, widget: markdown }
-  - name: "partner"
+  - name: "article"
+    label: "База знань"
+    folder: "src/pages/wiki"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "article-item",
+        }
+      - { label: Is Visible, name: isVisible, widget: boolean }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Hero Image, name: heroImage, widget: image }
+      - { label: Hero Title, name: heroTitle, widget: string }
+      - { label: Hero Subtitle, name: heroSubtitle, widget: string }
+      - { label: Body, name: body, widget: markdown }
+      - { label: Wiki Categories, name: wikiCategories, widget: list }
+ - name: "partner"
     label: "Партнери"
     folder: "src/pages/partner"
     create: true

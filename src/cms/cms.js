@@ -5,6 +5,7 @@ import cloudinary from 'netlify-cms-media-library-cloudinary'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 import DonatePagePreview from './preview-templates/DonatePagePreview'
 import ProductItemPreview from './preview-templates/ProductItemPreview'
+import ArticleItemPreview from './preview-templates/ArticleItemPreview'
 import PartnerItemPreview from './preview-templates/PartnerItemPreview'
 
 CMS.registerMediaLibrary(uploadcare)
@@ -13,4 +14,5 @@ CMS.registerMediaLibrary(cloudinary)
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('donate', DonatePagePreview)
 CMS.registerPreviewTemplate('feature', ProductItemPreview)
+CMS.registerPreviewTemplate('feature', ArticleItemPreview)
 CMS.registerPreviewTemplate('feature', PartnerItemPreview)

@@ -16,6 +16,7 @@ exports.createPages = ({ actions, graphql }) => {
             }
             frontmatter {
               tags
+              wikiCategories
               templateKey
             }
           }
@@ -35,6 +36,7 @@ exports.createPages = ({ actions, graphql }) => {
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
+        wikiCategories: edge.node.frontmatter.wikiCategories,
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
@@ -68,6 +70,34 @@ exports.createPages = ({ actions, graphql }) => {
         },
       })
     })
+
+
+    // wikiCategories pages:
+    let wikiCategories = []
+    // Iterate through each post, putting all found wikiCategories into `wikiCategories`
+    posts.forEach((edge) => {
+      if (_.get(edge, `node.frontmatter.wikiCategories`)) {
+        wikiCategories = wikiCategories.concat(edge.node.frontmatter.wikiCategories)
+      }
+    })
+    // Eliminate duplicate wikiCategories
+    wikiCategories = _.uniq(wikiCategories)
+
+    // Make wikiCategory pages
+    wikiCategories.forEach((wikiCategory) => {
+      const wikiCategoryPath = `/wiki/${_.kebabCase(wikiCategory)}/`
+
+      createPage({
+        path: wikiCategoryPath,
+        component: path.resolve(`src/templates/wiki.js`),
+        context: {
+          wikiCategory,
+        },
+      })
+    })
+
+
+
   })
 }
 
