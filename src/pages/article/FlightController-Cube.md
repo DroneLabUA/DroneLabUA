@@ -11,3 +11,9 @@ tags:
   - wikirepeater
 ---
 ![](/img/cubepilot_ecosystem.jpg)
+
+﻿
+The Cube connector pin assignments
+
+TELEM1, TELEM2 ports
+
