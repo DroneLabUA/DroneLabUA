@@ -2,13 +2,16 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-13T15:04:10.000Z
-tags:
-  - wikirepeater
-wikiCategories:
-  - PDB
 heroImage: /img/screenshot-2023-08-02-at-21.03.18.png
 heroTitle: SpeedyBee
 heroSubtitle: виносна антена 50м
+wikiCategories:
+  - PDB
+  - TGK
+  - CBD
+  - LSD
+tags:
+  - wikirepeater
 ---
 # SpeedyBee
 
