@@ -7,9 +7,6 @@ heroTitle: SpeedyBee
 heroSubtitle: виносна антена 50м
 wikiCategories:
   - PDB
-  - TGK
-  - CBD
-  - LSD
 tags:
   - wikirepeater
 ---
