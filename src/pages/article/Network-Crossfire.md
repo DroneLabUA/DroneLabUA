@@ -2,13 +2,13 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-10T15:04:10.000Z
-tags:
-  - wikidrone
-wikiCategories:
-  - Network
 heroImage: /img/ams_1729-edit.jpg
 heroTitle: Crossfire
 heroSubtitle: Carbon
+wikiCategories:
+  - RC Link
+tags:
+  - wikidrone
 ---
 # Crossfire
 
