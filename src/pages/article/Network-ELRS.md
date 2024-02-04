@@ -2,13 +2,13 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-11T15:04:10.000Z
-tags:
-  - wikidrone
-wikiCategories:
-  - Network
 heroImage: /img/ams_1711-edit.jpg
 heroTitle: ELRS
 heroSubtitle: Carbon
+wikiCategories:
+  - RC Link
+tags:
+  - wikidrone
 ---
 # ELRS
 
