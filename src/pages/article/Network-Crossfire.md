@@ -2,9 +2,9 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-10T15:04:10.000Z
-heroImage: /img/ams_1729-edit.jpg
-heroTitle: Crossfire
-heroSubtitle: Carbon
+heroImage: /img/a7302323.jpeg
+heroTitle: TBS CROSSFIRE NANO RX
+heroSubtitle: TBS
 wikiCategories:
   - RC Link
 tags:
@@ -12,7 +12,7 @@ tags:
 ---
 # Crossfire
 
-![](/img/ams_1729-edit.jpg)
+![](/img/a730232223.jpg)
 
 | **ТТХ**                            |           |
 | ---------------------------------- | --------- |
