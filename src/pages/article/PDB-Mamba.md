@@ -6,7 +6,7 @@ heroImage: /img/screenshot-2024-02-04-at-01.24.25.png
 heroTitle: FC Mamba F722
 heroSubtitle: Mamba MK4 F722 APP + ESC
 wikiCategories:
-  - PDB
+  - Flight Controllers
 tags:
   - wikirepeater
 ---
