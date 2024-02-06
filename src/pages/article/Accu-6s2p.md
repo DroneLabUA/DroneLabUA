@@ -2,17 +2,17 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-01T15:04:10.000Z
-tags:
-  - wikidrone
-wikiCategories:
-  - Accumulators
-heroImage: /img/ams_1711-edit.jpg
+heroImage: /img/img_2794.jpg
 heroTitle: 6S2P
 heroSubtitle: Carbon
+wikiCategories:
+  - Accumulators
+tags:
+  - wikidrone
 ---
 # 6S2P
 
-![](/img/ams_1711-edit.jpg)
+![](/img/img_2792.jpg)
 
 | **ТТХ**                            |           |
 | ---------------------------------- | --------- |
