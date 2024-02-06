@@ -2,17 +2,17 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-02T15:04:10.000Z
-tags:
-  - wikidrone
-wikiCategories:
-  - Accumulators
-heroImage: /img/ams_1711-edit.jpg
+heroImage: /img/img_2789.jpg
 heroTitle: 6S3P
 heroSubtitle: Carbon
+wikiCategories:
+  - Accumulators
+tags:
+  - wikidrone
 ---
 # 6S3P
 
-![](/img/ams_1711-edit.jpg)
+![](/img/img_2791.jpg)
 
 | **ТТХ**                            |           |
 | ---------------------------------- | --------- |
@@ -34,4 +34,4 @@ heroSubtitle: Carbon
 
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
-![](/img/ams_1709-edit.jpg)
+![]()
