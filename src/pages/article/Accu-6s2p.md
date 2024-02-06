@@ -6,7 +6,7 @@ heroImage: /img/img_2794.jpg
 heroTitle: 6S2P
 heroSubtitle: Carbon
 wikiCategories:
-  - Accumulators
+  - Battery
 tags:
   - wikidrone
 ---
