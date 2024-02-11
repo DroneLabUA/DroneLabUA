@@ -4,7 +4,7 @@ isVisible: true
 date: 2022-02-22T15:04:10.000Z
 tags:
   - repeater
-heroImage: /img/img_2833.jpg
+heroImage: /img/photo_2024-02-11_16-37-19.jpg
 heroTitle: Бездротовий ретранслятор
 heroSubtitle: Працює з DJI Mavic 3
 ---
