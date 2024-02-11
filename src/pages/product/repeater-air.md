@@ -10,7 +10,7 @@ heroSubtitle: Працює з DJI Mavic 3
 ---
 ![](/img/photo_2024-02-11_15-02-10.jpg)
 
-![](/img/img_2841.jpg)
+
 
 # Бездротовий ретранслятор, для встановлення на Dji Mavic3
 
@@ -26,4 +26,3 @@ heroSubtitle: Працює з DJI Mavic 3
 Орієнтовна вартість **26000** грн \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. 
 
-![Повітряний ретранслятор 2](/img/img_2836.jpg)
