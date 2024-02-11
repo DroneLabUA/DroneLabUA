@@ -1,13 +1,17 @@
 ---
 templateKey: product-item
+isVisible: true
 date: 2022-02-22T15:04:10.000Z
 tags:
   - repeater
-heroImage: /img/screenshot-2023-09-17-at-19.06.12.png
-heroSubtitle: Працює з DJI Mavic 3
+heroImage: /img/img_2833.jpg
 heroTitle: Бездротовий ретранслятор
-isVisible: false
+heroSubtitle: Працює з DJI Mavic 3
 ---
+![](/img/photo_2024-02-11_15-02-10.jpg)
+
+![](/img/img_2841.jpg)
+
 # Бездротовий ретранслятор, для встановлення на Dji Mavic3
 
 | ТТХ                                                                                    |                 |
@@ -23,4 +27,4 @@ isVisible: false
 Орієнтовна вартість **23 257** грн \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. 
 
-![Повітряний ретранслятор 2](/img/retranslator3-3-.jpg)
+![Повітряний ретранслятор 2](/img/img_2836.jpg)
