@@ -8,7 +8,9 @@ heroImage: /img/photo_2024-02-11_16-37-19.jpg
 heroTitle: Бездротовий ретранслятор
 heroSubtitle: Працює з DJI Mavic 3
 ---
-![](/img/img_2841.jpg)
+![](/img/photo_2024-02-11_15-02-10.jpg)
+
+![](/img/photo_2024-02-11_16-37-19.jpg)
 
 # Бездротовий ретранслятор, для встановлення на Dji Mavic3
 
