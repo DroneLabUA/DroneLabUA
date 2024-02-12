@@ -24,6 +24,6 @@ heroSubtitle: Працює з DJI Mavic 3
 | П﻿орт зарядки          | USB type-C     |
 
 Ретранслятор забезпечує радіо горизонт та надає можливість керування дроном на мінімальній висоті.\
- 
-Орієнтовна вартість **27000** грн \
+
+\
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
