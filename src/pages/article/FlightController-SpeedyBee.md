@@ -12,6 +12,6 @@ tags:
 ---
 # SpeedyBee
 
-![](/img/sb_f405v4-other-2.jpg)
+![](/img/f405-v3-specification-2.jpg)
 
 ![]()
