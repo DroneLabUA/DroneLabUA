@@ -5,8 +5,8 @@ date: 2022-02-21T15:04:10.000Z
 tags:
   - repeater
 heroImage: /img/photo_10_2024-02-29_13-39-04.jpg
-heroTitle: Виносна антена
-heroSubtitle: Виносна антена
+heroTitle: Наземна станція
+heroSubtitle: Наземна станція
 ---
 # Виносна антена
 
