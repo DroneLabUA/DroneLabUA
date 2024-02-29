@@ -4,7 +4,7 @@ isVisible: true
 date: 2022-02-21T15:04:10.000Z
 tags:
   - repeater
-heroImage: /img/screenshot-2023-08-02-at-21.03.18.png
+heroImage: /img/photo_10_2024-02-29_13-39-04.jpg
 heroTitle: Наземна антена
 heroSubtitle: виносна антена 50м
 ---
@@ -20,5 +20,6 @@ heroSubtitle: виносна антена 50м
 В комплект входить антена, кабель (50м), щогла та акумуляторна батарея.  \
 \
 Орієнтовна вартість **24 643** грн. \
-Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. 
+Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
+![](/img/photo_6_2024-02-29_13-39-04.jpg)
