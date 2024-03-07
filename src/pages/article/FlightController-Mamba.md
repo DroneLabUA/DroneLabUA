@@ -10,19 +10,48 @@ wikiCategories:
 tags:
   - wikirepeater
 ---
-# Mamba
+<!--StartFragment-->
 
-| ТТХ                                                                                    |                 |
-| -------------------------------------------------------------------------------------- | --------------- |
-| Акумулятор                                                                             | 2S1P            |
-| Протестована дистанція роботи в ідеальних умовах (відео передавач на дроні 1.6W / 2.5W | 9 / 16 км       |
-| Частота відео передавача на дроні                                                      | 1.2GHz / 5.8GHz |
-| Передача керування Crossfire/ELRS                                                      | 8﻿68MHz         |
-| П﻿риблизна вага                                                                        | 340гр           |
+FC Specifications
 
-Ретранслятор дає можливість не втратити зв'язок з дроном на мінімальній висоті.\
+Target：MAMBA F722_2022B\
+MCU: **216MHz STM32F722**\
+GYRO: ICM-42688-P\
+Barometer: Yes\
+OSD: Yes\
+Blacbox: 16 M Flash Memory\
+Uarts: 6 Set\
+Motor Signal:4 Set\
+ESC Soft: Dshot300/600\
+ESC Telemetry: Yes\
+Power Led: Yes\
+LED Controller: BF LED\
+AIR UNIT Port: Yes\
+**WIFI: No（Basic）/SpeedyBee (WIFI) Optional**\
+F.Port: Yes\
+RSSI: No\
+Buzz: Yes\
+Input: 3\~6S Lipo (12.6\~25.2V)\
+BEC Protection: Yes\
+Receiver Protection: Yes\
+TVS Protection: Yes\
+BEC: 3.3V 0.5A&  5V 2A\
+Mounting size: **25.5×25.5mm/M2**\
 \
-Орієнтовна вартість **23 257** грн \
-Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. 
+ESC Specifications\
+Input: 3\~6S Lipo (12.6\~25.2V)\
+Continue Current: 40A×4\
+Burst current: 45A (10S)\
+Target：**BLHeli_32 MAMBA F40_128K**\
+SOFT: Dshot300/600\
+PWM:24~128K\
+\
+Supply :\
+High Frequency 470uF/35V ×1\
+AIR UNIT sh1.0 ×1\
+16AWG 60mm ×2\
+AMASS Original XT60
+
+<!--EndFragment-->
 
 ![Повітряний ретранслятор 2](/img/mk4740basic_20221121-01_9afb5072-32fd-4c96-a65d-245d437b1f26.jpg)
