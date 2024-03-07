@@ -4,7 +4,7 @@ isVisible: true
 date: 2000-01-08T15:04:10.000Z
 heroImage: /img/screenshot-2024-02-04-at-01.24.25.png
 heroTitle: Mamba
-heroSubtitle: Mamba
+heroSubtitle: Mamba MK4 F740 AIO 40A 6S 32bit
 wikiCategories:
   - Flight Controllers
 tags:
@@ -25,4 +25,4 @@ tags:
 Орієнтовна вартість **23 257** грн \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>. 
 
-![Повітряний ретранслятор 2](/img/retranslator3-3-.jpg)
+![Повітряний ретранслятор 2](/img/mk4740basic_20221121-01_9afb5072-32fd-4c96-a65d-245d437b1f26.jpg)
