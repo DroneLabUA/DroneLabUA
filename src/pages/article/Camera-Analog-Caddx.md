@@ -2,13 +2,13 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-03T15:04:10.000Z
-tags:
-  - wikidrone
+heroImage: /img/kamera-caddx-baby-ratel-2.jpg
+heroTitle: Caddx Ratel2
+heroSubtitle: Caddx Ratel2
 wikiCategories:
   - Cameras
-heroImage: /img/ams_1697-edit.jpg
-heroTitle: Caddx
-heroSubtitle: Analog 
+tags:
+  - wikidrone
 ---
 # Caddx (Analog)
 
