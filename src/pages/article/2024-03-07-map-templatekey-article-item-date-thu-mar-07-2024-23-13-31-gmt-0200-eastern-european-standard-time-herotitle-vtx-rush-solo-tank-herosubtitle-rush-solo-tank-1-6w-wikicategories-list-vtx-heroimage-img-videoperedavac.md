@@ -10,4 +10,4 @@ wikiCategories:
 ---
 ![](/img/videoperedavach-rush-tank-solo-58ghz-1600mw.jpg)
 
-![](/img/cahve34t3lr81.jpg)
+![](/img/rushfpv-rush-tank-solo-5.8ghz-08.jpg)
