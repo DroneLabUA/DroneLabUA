@@ -12,7 +12,7 @@ tags:
 ---
 # WalkSnail (Digital)
 
-![](/img/ams_1697-edit.jpg)
+![](/img/avatarhdnanokitv39cm.webp)
 
 | **ТТХ**                            |           |
 | ---------------------------------- | --------- |
