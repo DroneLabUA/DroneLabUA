@@ -3,8 +3,8 @@ templateKey: article-item
 isVisible: true
 date: 2000-01-13T15:04:10.000Z
 heroImage: /img/screenshot-2023-08-02-at-21.03.18.png
-heroTitle: SpeedyBee
-heroSubtitle: виносна антена 50м
+heroTitle: FC SpeedyBee F405 V3
+heroSubtitle: FC SpeedyBee F405 V3
 wikiCategories:
   - PDB
 tags:
