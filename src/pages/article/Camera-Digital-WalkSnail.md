@@ -11,7 +11,12 @@ tags:
   - wikidrone
 ---
 # WalkSnail (Digital)
+Avatar HD Nano Camera V3
 
 
+![](/img/avatar-walksnail.jpeg)
 
-![]()
+| **ТТХ**                            |           |
+| ---------------------------------- | --------- |
+| Image Sensor                | 1/3.2-Inch 4Mp 4:3 sensor |
+
