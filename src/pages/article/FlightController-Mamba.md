@@ -3,7 +3,7 @@ templateKey: article-item
 isVisible: true
 date: 2000-01-08T15:04:10.000Z
 heroImage: /img/screenshot-2024-02-04-at-01.24.25.png
-heroTitle: Mamba
+heroTitle: FC Mamba MK4 F740
 heroSubtitle: Mamba MK4 F740 AIO 40A 6S 32bit
 wikiCategories:
   - Flight Controllers
