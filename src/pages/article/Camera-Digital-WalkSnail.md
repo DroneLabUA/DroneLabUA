@@ -2,13 +2,13 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-06T15:04:10.000Z
-tags:
-  - wikidrone
+heroImage: /img/avatarhdnanokitv3-9cm.webp
+heroTitle: Cadxx WalkSnail
+heroSubtitle: Digital
 wikiCategories:
   - Cameras
-heroImage: /img/ams_1697-edit.jpg
-heroTitle: WalkSnail
-heroSubtitle: Digital 
+tags:
+  - wikidrone
 ---
 # WalkSnail (Digital)
 
