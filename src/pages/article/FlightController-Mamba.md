@@ -2,13 +2,13 @@
 templateKey: article-item
 isVisible: true
 date: 2000-01-08T15:04:10.000Z
-tags:
-  - wikirepeater
-wikiCategories:
-  - Flight Controllers
-heroImage: /img/screenshot-2023-09-17-at-19.06.12.png
+heroImage: /img/screenshot-2024-02-04-at-01.24.25.png
 heroTitle: Mamba
 heroSubtitle: Mamba
+wikiCategories:
+  - Flight Controllers
+tags:
+  - wikirepeater
 ---
 # Mamba
 
