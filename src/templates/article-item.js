@@ -14,7 +14,7 @@ import Layout from "../components/Layout";
 // import FullWidthImage from "../components/FullWidthImage";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Content, { HTMLContent } from "../components/Content";
-import ProductList from "../components/ProductList";
+// import ProductList from "../components/ProductList";
 const _ = require('lodash')
 
 
@@ -68,7 +68,7 @@ export const ArticleItemTemplate = ({
           </div>
         </div>
       </section>
-      <ProductList />
+      {/* <ProductList /> */}
       </div>
 
   );
