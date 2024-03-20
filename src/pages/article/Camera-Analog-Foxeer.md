@@ -10,5 +10,6 @@ wikiCategories:
 tags:
   - wikidrone
 ---
-# Foxeer (Analog)
+![](/img/screenshot-2024-03-20-at-11.58.00.jpg)
 
+# Foxeer (Analog)
