@@ -19,9 +19,10 @@ heroSubtitle: Carbon
 | Крейсерська швидкість              | 60 км\год |
 | Р﻿ама                              | карбон    |
 | Пропелери HQProp                   | 7"        |
+| Мотори BrotherHobby (або аналог)    | 2808 |
 | FC SpeedyBee V3                    | F405      |
 | ESC                                | 50A       |
-| ﻿VTX Rush Max SOLO 5.8GHz          | 2.5W      |
+| ﻿VTX Rush Max SOLO (або аналог) | 5.8GHz / 2.5W |
 | ﻿Керування                         | Crossfire |
 | АКБ 6S2P (molicel 21700 42P)       | 8400 mAh  |
 | Вага дрона з АКБ                   | 1.47 кг   |
