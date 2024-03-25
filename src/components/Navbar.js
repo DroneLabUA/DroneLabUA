@@ -99,7 +99,7 @@ export default function Navbar() {
       query={graphql`
         query NavbarQuery {
           allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
+            sort: { frontmatter: { date: DESC} }
             filter: { frontmatter: { templateKey: { eq: "product-item" } } }
           ) {
             edges {

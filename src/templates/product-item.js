@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 // import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 // import { graphql } from "gatsby";
-import { graphql, Link } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
+import { graphql } from "gatsby";
+// import { getImage } from "gatsby-plugin-image";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -28,7 +28,7 @@ export const ProductItemTemplate = ({
   content,
   contentComponent,
 }) => {
-  const herroImage = getImage(heroImage) || heroImage;
+  // const herroImage = getImage(heroImage) || heroImage;
   const PostContent = contentComponent || Content;
 
   return (

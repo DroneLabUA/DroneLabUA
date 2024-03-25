@@ -52,7 +52,7 @@ export const wikiCategoryQuery = graphql`
     allMarkdownRemark(
       limit: 1000
     ) {
-      group(field: frontmatter___wikiCategories) {  
+      group( field: { frontmatter: { wikiCategories: SELECT } } ) {
         fieldValue
         totalCount
       }
