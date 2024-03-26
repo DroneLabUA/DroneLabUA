@@ -25,9 +25,9 @@ const WikiRoute = (props) =>  {
     const { wikiCategory } = props.pageContext;
     const { title } = props.data.site.siteMetadata;
     const { totalCount } = props.data.allMarkdownRemark;
-    const tagHeader = `${totalCount} artile${
-      totalCount === 1 ? "" : "s"
-    } in category ${wikiCategory}`;
+    // const tagHeader = `${totalCount} artile${
+    //   totalCount === 1 ? "" : "s"
+    // } in category ${wikiCategory}`;
     const tagHeader2 = `Категорія ${wikiCategory}`;
     const tagHeader3 = `Кількість статей ${totalCount} шт.`;
 
@@ -81,7 +81,7 @@ export const wikiPageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { wikiCategories: { in: [$wikiCategory] } } }
     ) {
       totalCount

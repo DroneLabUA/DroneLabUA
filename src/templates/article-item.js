@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 // import { graphql } from "gatsby";
 import { graphql, Link } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
+// import { getImage } from "gatsby-plugin-image";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -32,9 +32,8 @@ export const ArticleItemTemplate = ({
   content,
   contentComponent,
 }) => {
-  const herroImage = getImage(heroImage) || heroImage;
+  // const herroImage = getImage(heroImage) || heroImage;
   const PostContent = contentComponent || Content;
-
   const wikiCategoryLink = `/wiki/${_.kebabCase(wikiCategories)}/`;
 
   // const posts = props.data.allMarkdownRemark.edges;
@@ -59,7 +58,7 @@ export const ArticleItemTemplate = ({
                 <ul>
                   <li><Link to="/wiki">База знань</Link></li>
                   <li><Link to={wikiCategoryLink}>{ wikiCategories }</Link></li>
-                  <li class="is-active"><a href="#" aria-current="page">{ heroTitle }</a></li>
+                  <li class="is-active"><a href="#" aria-current="page">{ heroTitle } { wikiCategories }</a></li>
                 </ul>
               </nav>
 
