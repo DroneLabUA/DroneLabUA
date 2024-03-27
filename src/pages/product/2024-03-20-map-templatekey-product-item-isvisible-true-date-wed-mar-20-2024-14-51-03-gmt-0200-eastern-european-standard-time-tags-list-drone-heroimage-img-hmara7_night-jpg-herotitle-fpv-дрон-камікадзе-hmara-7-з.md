@@ -10,6 +10,8 @@ heroSubtitle: Thermal Camera
 ---
 ![](/img/hmara7_night.jpg)
 
+![](/img/img-20240327-wa0001.jpg)
+
 # Дрон камікадзе HMARA 7" з тепловізором
 
 | **ТТХ**                          |                |
