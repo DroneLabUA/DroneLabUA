@@ -20,7 +20,7 @@ heroSubtitle: Carbon
 | Р﻿ама                                          | карбон         |
 | Пропелери HQProp                               | 7"             |
 | FC SpeedyBee V3                                | F405, 50A      |
-| ﻿VTX Rush Max SOLO 5.8GHz                      | 2.5W           |
+| ﻿VTX Rush Max SOLO 5.8GHz (або аналог)         | 2.5W           |
 | ﻿Керування                                     | Crossfire/ELRS |
 | АКБ 6S2P (molicel 21700 42P)                   | 8400 mAh       |
 | Система скиду "Cталеві шершні"                 | B2             |
