@@ -39,4 +39,4 @@ heroSubtitle: Thermal Camera
 
 ![](/img/hmara7_night_2.jpg)
 
-![](/img/img-20240327-wa0004.jpg)
+![]()
