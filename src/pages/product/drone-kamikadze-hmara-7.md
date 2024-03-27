@@ -24,7 +24,7 @@ heroSubtitle: Carbon
 | ESC                                | 50A            |
 | ﻿VTX Rush Max SOLO (або аналог)    | 5.8GHz / 2.5W  |
 | ﻿Керування                         | Crossfire/ELRS |
-| АКБ 6S2P (molicel 21700 42P)       | 8400 mAh       |
+| АКБ 6S2P (molicel 21700 P42A)      | 8400 mAh       |
 | Вага дрона з АКБ                   | 1.47 кг        |
 
 Усі дрони тестуються на полігоні з відповідним навантаженням.
