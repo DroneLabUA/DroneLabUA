@@ -42,6 +42,7 @@ const WikiRoute = (props) =>  {
                 <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
                   <ul>
                     <li><Link to="/wiki">База знань</Link></li>
+                    {/* eslint-disable-next-line */}
                     <li class="is-active"><a href="#" aria-current="page">{ wikiCategory }</a></li>
                   </ul>
                 </nav>

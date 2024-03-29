@@ -58,7 +58,8 @@ export const ArticleItemTemplate = ({
                 <ul>
                   <li><Link to="/wiki">База знань</Link></li>
                   <li><Link to={wikiCategoryLink}>{ wikiCategories }</Link></li>
-                  <li class="is-active"><a href="#" aria-current="page">{ heroTitle } { wikiCategories }</a></li>
+                    {/* eslint-disable-next-line */}
+                    <li class="is-active"><a href="#" aria-current="page">{ heroTitle } { wikiCategories }</a></li>
                 </ul>
               </nav>
 
