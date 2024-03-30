@@ -5,7 +5,7 @@ module.exports = {
       "DroneLabUA - дрони-камікадзе, дрони під скид та ретранслятори для фронту",
   },
   plugins: [
-    "gatsby-plugin-fontawesome-css",
+    // "gatsby-plugin-fontawesome-css",
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-sass",
@@ -37,7 +37,7 @@ module.exports = {
         name: "images",
       },
     },
-    `gatsby-plugin-image`,
+    "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -66,6 +66,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
+        htmlFavicon: `${__dirname}/static/img/favicon_v3/favicon-32x32.png`,
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },

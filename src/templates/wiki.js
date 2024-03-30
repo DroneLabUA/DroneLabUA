@@ -25,9 +25,9 @@ const WikiRoute = (props) =>  {
     const { wikiCategory } = props.pageContext;
     const { title } = props.data.site.siteMetadata;
     const { totalCount } = props.data.allMarkdownRemark;
-    const tagHeader = `${totalCount} artile${
-      totalCount === 1 ? "" : "s"
-    } in category ${wikiCategory}`;
+    // const tagHeader = `${totalCount} artile${
+    //   totalCount === 1 ? "" : "s"
+    // } in category ${wikiCategory}`;
     const tagHeader2 = `Категорія ${wikiCategory}`;
     const tagHeader3 = `Кількість статей ${totalCount} шт.`;
 
@@ -42,6 +42,7 @@ const WikiRoute = (props) =>  {
                 <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
                   <ul>
                     <li><Link to="/wiki">База знань</Link></li>
+                    {/* eslint-disable-next-line */}
                     <li class="is-active"><a href="#" aria-current="page">{ wikiCategory }</a></li>
                   </ul>
                 </nav>
@@ -81,7 +82,7 @@ export const wikiPageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { wikiCategories: { in: [$wikiCategory] } } }
     ) {
       totalCount
