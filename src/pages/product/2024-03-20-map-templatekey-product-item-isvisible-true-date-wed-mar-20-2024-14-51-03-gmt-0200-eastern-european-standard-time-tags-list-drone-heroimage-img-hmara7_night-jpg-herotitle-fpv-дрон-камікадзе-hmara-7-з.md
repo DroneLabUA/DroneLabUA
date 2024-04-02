@@ -8,7 +8,7 @@ heroImage: /img/hmara7_night_v2.jpg
 heroTitle: FPV Дрон камікадзе HMARA 7" T
 heroSubtitle: Thermal Camera
 ---
-![](/img/hmara7_night.jpg)
+![](/img/hmara7_night_v2.jpg)
 
 ![](/img/img-20240327-wa0001.jpg)
 
