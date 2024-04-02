@@ -6,7 +6,7 @@ tags:
   - drone
 heroImage: /img/ams_1697-edit.jpg
 heroTitle: FPV Дрон камікадзе HMARA 10"
-heroSubtitle: Carbon
+heroSubtitle: FPV Дрон HMARA 10"
 ---
 ![](/img/ams_1697-edit.jpg)
 
