@@ -10,6 +10,8 @@ wikiCategories:
 ---
 ![](/img/17-07-59-649aa6efe4b21.images.800x800.jpg)
 
+![](/img/foxeer5w.jpg)
+
 т﻿аблиця частот (json)
 
 https://download.foxeer.com/Foxeer_5W_Infinity_Reaper_VTx_Table.zip
