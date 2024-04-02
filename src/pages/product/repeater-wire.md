@@ -1,6 +1,6 @@
 ---
 templateKey: product-item
-isVisible: true
+isVisible: false
 date: 2022-02-21T15:04:10.000Z
 tags:
   - repeater
