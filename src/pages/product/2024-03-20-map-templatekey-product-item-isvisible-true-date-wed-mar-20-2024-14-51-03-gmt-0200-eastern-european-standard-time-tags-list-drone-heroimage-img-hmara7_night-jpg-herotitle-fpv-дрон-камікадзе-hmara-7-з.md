@@ -4,7 +4,7 @@ isVisible: true
 date: 2024-03-20T12:51:03.562Z
 tags:
   - drone
-heroImage: /img/hmara7_night_v2.jpg
+heroImage: /img/hmara7_night_v3.jpg
 heroTitle: FPV Дрон камікадзе HMARA 7" T
 heroSubtitle: Thermal Camera
 ---
