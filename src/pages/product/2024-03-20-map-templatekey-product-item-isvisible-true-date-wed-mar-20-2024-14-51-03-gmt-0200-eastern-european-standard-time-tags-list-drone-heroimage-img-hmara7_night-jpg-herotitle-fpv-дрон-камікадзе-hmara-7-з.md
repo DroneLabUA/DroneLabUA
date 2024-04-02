@@ -5,7 +5,7 @@ date: 2024-03-20T12:51:03.562Z
 tags:
   - drone
 heroImage: /img/hmara7_night_v3.jpg
-heroTitle: FPV Дрон камікадзе HMARA 7" T
+heroTitle: FPV Дрон HMARA 7" T
 heroSubtitle: FPV Дрон HMARA 7" Thermal
 ---
 ![](/img/hmara7_night_v3.jpg)
