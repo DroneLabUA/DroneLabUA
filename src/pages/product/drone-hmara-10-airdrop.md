@@ -6,7 +6,7 @@ tags:
   - drone
 heroImage: /img/ams_1729-edit.jpg
 heroTitle: FPV Дрон HMARA 10" зі скидом
-heroSubtitle: Carbon
+heroSubtitle: FPV Дрон HMARA 10"
 ---
 ![](/img/ams_1729-edit.jpg)
 
