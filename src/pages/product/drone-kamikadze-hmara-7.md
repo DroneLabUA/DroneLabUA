@@ -5,12 +5,12 @@ date: 2022-02-24T15:04:10.000Z
 tags:
   - drone
 heroImage: /img/ams_1711-edit.jpg
-heroTitle: FPV Дрон камікадзе HMARA 7"
+heroTitle: FPV Дрон HMARA 7"
 heroSubtitle: FPV Дрон HMARA 7"
 ---
 ![](/img/ams_1711-edit.jpg)
 
-# Дрон камікадзе HMARA 7"
+# FPV дрон HMARA 7"
 
 | **ТТХ**                            |                |
 | ---------------------------------- | -------------- |
