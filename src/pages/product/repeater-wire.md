@@ -7,6 +7,15 @@ tags:
 heroImage: /img/photo_10_2024-02-29_13-39-04.jpg
 heroTitle: Наземна станція
 heroSubtitle: Наземна станція
+options:
+  - optionTitle: скид
+    price: +1000 грн
+  - optionTitle: акумулятор
+    price: +2000 грн
+  - optionTitle: відео передавач
+    price: +1500 грн
+  - optionTitle: тепловізор
+    price: +14000 грн
 ---
 # Наземна станція
 

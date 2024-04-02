@@ -7,6 +7,15 @@ tags:
 heroImage: /img/hmara7_night.jpg
 heroTitle: FPV Дрон камікадзе HMARA 7" T
 heroSubtitle: Thermal Camera
+options:
+  - optionTitle: скид
+    price: +1000 грн
+  - optionTitle: акумулятор
+    price: +2000 грн
+  - optionTitle: відео передавач
+    price: +1500 грн
+  - optionTitle: тепловізор
+    price: +14000 грн
 ---
 ![](/img/hmara7_night.jpg)
 

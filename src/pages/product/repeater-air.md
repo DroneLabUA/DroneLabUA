@@ -7,6 +7,15 @@ tags:
 heroImage: /img/photo_2024-02-11_16-37-19.jpg
 heroTitle: Бездротовий ретранслятор
 heroSubtitle: Працює з DJI Mavic 3
+options:
+  - optionTitle: скид
+    price: +1000 грн
+  - optionTitle: акумулятор
+    price: +2000 грн
+  - optionTitle: відео передавач
+    price: +1500 грн
+  - optionTitle: тепловізор
+    price: +14000 грн
 ---
 ![](/img/photo_2024-02-11_15-02-10.jpg)
 

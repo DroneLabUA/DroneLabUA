@@ -7,6 +7,15 @@ tags:
 heroImage: /img/ams_1729-edit.jpg
 heroTitle: FPV Дрон HMARA 10" з системою скидання
 heroSubtitle: Carbon
+options:
+  - optionTitle: скид
+    price: +1000 грн
+  - optionTitle: акумулятор
+    price: +2000 грн
+  - optionTitle: відео передавач
+    price: +1500 грн
+  - optionTitle: тепловізор
+    price: +14000 грн
 ---
 ![](/img/ams_1729-edit.jpg)
 
