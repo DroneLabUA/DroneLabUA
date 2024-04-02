@@ -5,7 +5,7 @@ date: 2024-01-03T21:28:18.330Z
 tags:
   - drone
 heroImage: /img/ams_1729-edit.jpg
-heroTitle: FPV Дрон HMARA 10" з системою скидання
+heroTitle: FPV Дрон HMARA 10" зі скидом
 heroSubtitle: Carbon
 ---
 ![](/img/ams_1729-edit.jpg)
