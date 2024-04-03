@@ -1,13 +1,13 @@
 ---
 templateKey: article-item
-isVisible: false
+isVisible: true
 date: 2024-04-02T17:20:42.084Z
-heroImage: /img/videoperedavach-rush-max-solo-58ghz-25w.jpg
-heroTitle: VTX
-heroSubtitle: VTX
+heroImage: /img/1-10-600x600.jpg
+heroTitle: VTX  iFlight BLITZ Whoop 5.8GHz 2.5W
+heroSubtitle: VTX  iFlight BLITZ Whoop 5.8GHz 2.5W
 wikiCategories:
   - VTX
 ---
-![](/img/videoperedavach-rush-max-solo-58ghz-25w.jpg)
+![](/img/1-10-600x600.jpg)
 
-![](/img/vpxbzmh1z3dg_i3.jpg)
+![]()
