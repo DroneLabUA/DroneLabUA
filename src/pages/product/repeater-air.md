@@ -23,6 +23,6 @@ heroSubtitle: "Ретранслятор  "
 | П﻿орт зарядки          | USB type-C     |
 
 Ретранслятор забезпечує радіо горизонт та надає можливість керування дроном на мінімальній висоті.\
-Орієнтовна вартість **25000** грн.
+Орієнтовна вартість **25500** грн.
 \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
