@@ -8,7 +8,7 @@ heroImage: /img/retranslator_v2.jpg
 heroTitle: Ретранслятор монтаж на DJI Mavic 3
 heroSubtitle: "Ретранслятор  "
 ---
-![](/img/photo_2024-02-11_15-02-10.jpg)
+
 
 ![](/img/photo_2024-02-11_16-37-19.jpg)
 
@@ -28,3 +28,5 @@ heroSubtitle: "Ретранслятор  "
 Д﻿одатково може комплектуватись відеоприймачем 1.3GHz\
 \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+
+![](/img/photo_2024-02-11_15-02-10.jpg)
