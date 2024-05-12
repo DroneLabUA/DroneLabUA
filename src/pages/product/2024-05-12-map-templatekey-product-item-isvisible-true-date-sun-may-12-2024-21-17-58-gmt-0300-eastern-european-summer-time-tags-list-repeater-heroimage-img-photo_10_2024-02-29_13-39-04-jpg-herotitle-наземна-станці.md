@@ -4,7 +4,7 @@ isVisible: true
 date: 2024-05-12T18:17:58.503Z
 tags:
   - repeater
-heroImage: /img/photo_10_2024-02-29_13-39-04.jpg
+heroImage: /img/img_3346.jpg
 heroTitle: "Наземна станція для FPV ретранслятора (5.8) "
 heroSubtitle: Наземна станція
 ---
@@ -42,7 +42,6 @@ heroSubtitle: Наземна станція
 ![]()
 
 \*За запитом може бути доукомлектовано приймачем 5.8 з комплектом антен та радіопередавачем ELRS.
-Монітор Hawkeye Captain (8500грн)
 
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
