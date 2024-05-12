@@ -5,8 +5,8 @@ date: 2022-02-22T15:04:10.000Z
 tags:
   - repeater
 heroImage: /img/retranslator_v2.jpg
-heroTitle: Ретранслятор монтаж на DJI Mavic 3
-heroSubtitle: "Ретранслятор  "
+heroTitle: FPV Ретранслятор (на DJI Mavic 3)
+heroSubtitle: "FPV Ретранслятор  "
 ---
 ![](/img/photo_2024-02-11_16-37-19.jpg)
 
