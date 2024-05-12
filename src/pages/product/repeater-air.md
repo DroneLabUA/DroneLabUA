@@ -4,13 +4,17 @@ isVisible: true
 date: 2022-02-22T15:04:10.000Z
 tags:
   - repeater
-heroImage: /img/retranslator_v2.jpg
+heroImage: /img/screenshot-2024-05-12-at-22.58.03.png
 heroTitle: FPV Ретранслятор (на DJI Mavic 3)
 heroSubtitle: "FPV Ретранслятор  "
 ---
-![](/img/photo_2024-02-11_16-37-19.jpg)
+![](/img/screenshot-2024-05-12-at-22.55.50.png)
 
-# Бездротовий ретранслятор, для встановлення на Dji Mavic3
+![](/img/img_3325.jpg)
+
+![](/img/screenshot-2024-05-12-at-22.54.35.png)
+
+# FPV ретранслятор, для встановлення на Dji Mavic3
 
 | ТТХ                      |                             |
 | ------------------------ | --------------------------- |
@@ -28,4 +32,6 @@ heroSubtitle: "FPV Ретранслятор  "
 \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
-![](/img/photo_2024-02-11_15-02-10.jpg)
+![](/img/screenshot-2024-05-12-at-23.06.50.png)
+
+![](/img/screenshot-2024-05-12-at-23.04.21.png)
