@@ -13,4 +13,4 @@ DroneLab, це інженерна майстерня в м. Києві, яка �
 \
 Наши контакти: **+380637824948** (WhatsApp або Signal)  \
 \
-Д﻿ля замовлення необхідних пристроїв, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+Д﻿ля замовлення необхідних пристроїв, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
