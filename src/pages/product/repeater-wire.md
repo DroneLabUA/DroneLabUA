@@ -1,11 +1,11 @@
 ---
 templateKey: product-item
-isVisible: false
+isVisible: true
 date: 2022-02-21T15:04:10.000Z
 tags:
   - repeater
 heroImage: /img/photo_10_2024-02-29_13-39-04.jpg
-heroTitle: Наземна станція для ретранслятора
+heroTitle: Наземна станція для FPV ретранслятора (5.8)
 heroSubtitle: Наземна станція
 ---
 ![]()
