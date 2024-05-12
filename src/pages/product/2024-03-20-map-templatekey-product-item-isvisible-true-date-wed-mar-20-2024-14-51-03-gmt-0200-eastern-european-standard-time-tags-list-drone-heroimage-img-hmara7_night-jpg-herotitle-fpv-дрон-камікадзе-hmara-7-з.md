@@ -33,7 +33,7 @@ heroSubtitle: FPV Дрон HMARA 7" Thermal
 
 Усі дрони тестуються на полігоні з відповідним навантаженням.
 
-Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+Щоб створити запит, скористайтеся <a href="hhttps://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
 ![](/img/hmara7_night_2.jpg)
 
