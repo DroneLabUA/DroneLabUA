@@ -26,7 +26,7 @@ heroSubtitle: "FPV Ретранслятор  "
 В комплект входять ретранслятор, аккумулятор та антени.\
 Д﻿одатково може комплектуватись відеоприймачем 1.3GHz\
 \
-Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+Щоб створити запит, скористайтеся <a href="hhttps://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
 
 ![](/img/screenshot-2024-05-12-at-23.06.50.png)
