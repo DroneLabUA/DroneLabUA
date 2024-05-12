@@ -28,7 +28,7 @@ heroSubtitle: FPV Дрон HMARA 10"
 
 Усі дрони тестуються на полігоні з відповідним навантаженням.
 
-Орієнтовна вартість  з АКБ **31 000** грн.\
+\
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
 ![](/img/ams_1735-edit.jpg)
