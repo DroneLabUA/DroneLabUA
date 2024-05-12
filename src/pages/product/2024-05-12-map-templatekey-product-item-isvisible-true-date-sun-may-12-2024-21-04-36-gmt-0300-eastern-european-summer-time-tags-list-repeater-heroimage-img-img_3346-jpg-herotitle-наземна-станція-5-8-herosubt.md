@@ -10,8 +10,6 @@ heroSubtitle: Наземна станція
 ---
 ![](/img/img_3346.jpg)
 
-![](/img/img_3349.jpg)
-
 ![](/img/img_3336.jpg)
 
 # Наземна станція
@@ -33,11 +31,8 @@ heroSubtitle: Наземна станція
 антена типу Yagi 750-905,
 захисний кейс для транспортування. 
 
-![]()
 
 \*За запитом може бути доукомлектовано приймачем 5.8 з комплектом антен та радіопередавачем ELRS.
 Монітор Hawkeye Captain (8500грн)
 
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/e/1FAIpQLSflTILqQ9CENT9xGsnn4Ke6l-D-2m2yaclV2jH2pzXmjGk51w/viewform" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
-
-![]()
