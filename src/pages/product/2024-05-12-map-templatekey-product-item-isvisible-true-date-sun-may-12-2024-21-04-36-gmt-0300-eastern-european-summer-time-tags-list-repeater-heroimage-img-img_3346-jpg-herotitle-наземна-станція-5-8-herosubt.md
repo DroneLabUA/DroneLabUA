@@ -4,7 +4,7 @@ isVisible: true
 date: 2024-05-12T18:04:36.461Z
 tags:
   - repeater
-heroImage: /img/img_3346.jpg
+heroImage: /img/img_3308_mod.jpg
 heroTitle: Виносна антена для керування FPV дронами (5.8)
 heroSubtitle: Виносна антена
 ---
