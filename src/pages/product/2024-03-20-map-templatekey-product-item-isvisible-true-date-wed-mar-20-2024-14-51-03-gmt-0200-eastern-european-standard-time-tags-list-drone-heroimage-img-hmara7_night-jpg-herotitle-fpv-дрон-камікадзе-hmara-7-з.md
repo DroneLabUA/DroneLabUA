@@ -8,8 +8,6 @@ heroImage: /img/hmara7_night_v3.jpg
 heroTitle: FPV Дрон HMARA 7" T
 heroSubtitle: FPV Дрон HMARA 7" Thermal
 ---
-
-
 # FPV дрон HMARA 7" з тепловізійним модулем
 
 ![](/img/hmara7_night_v3.jpg)
@@ -37,9 +35,6 @@ heroSubtitle: FPV Дрон HMARA 7" Thermal
 
 ![](/img/hmara7_night_2.jpg)
 
-
 ![](/img/img-20240327-wa0001.jpg)
 
-[<iframe width="2519" height="1070" src="https://www.youtube.com/embed/0LFdMk27UxM" title="FPV 7&quot; HMARA T" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]
-
-(<<iframe width="2519" height="1070" src="https://www.youtube.com/embed/0LFdMk27UxM" title="FPV 7&quot; HMARA T" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>)
+\[<iframe width="2519" height="1070" src="https://www.youtube.com/embed/0LFdMk27UxM" title="FPV 7&quot; HMARA T" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]
