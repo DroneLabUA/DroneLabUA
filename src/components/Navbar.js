@@ -18,7 +18,7 @@ const NavbarTemplate = (props) => {
     >
         <div className="navbar-brand">
           <Link to="/" className="navbar-item" activeClassName="is-active" title="Logo" style={{ paddingTop: "0", paddingBottom: "0" }}>
-            <img src={mainlogo} alt="Dronarnia" style={{ height: "120px", width: "auto", marginRight: ".75rem", padding: "0" }} />
+            <img src={mainlogo} alt="DronLab" style={{ height: "120px", width: "auto", marginRight: ".75rem", padding: "0" }} />
             <span><b>DroneLab</b></span>
           </Link>
           {/* Hamburger menu */}
@@ -47,7 +47,7 @@ const NavbarTemplate = (props) => {
                     if (post.frontmatter.isVisible){
                       return (
                         <Link to={post.fields.slug} key={post.id} className="navbar-item" activeClassName="is-active">
-                          <span style={{width: "50px"}}>
+                          <span style={{width: "30px", display: "inline-block"}}>
                             <PreviewCompatibleImage imageInfo={post.frontmatter.heroImage}/>
                           </span>
                           &nbsp;
