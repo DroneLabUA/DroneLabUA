@@ -13,6 +13,3 @@ heroSubtitle: DroneLab
 (WhatsApp / Signal)\
 \
 \
-**Монобанка** для підтримки діяльності майстерні:
-
-https://send.monobank.ua/jar/9rdNThoQQo
