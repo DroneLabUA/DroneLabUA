@@ -8,7 +8,7 @@ heroImage: /img/img_3308_mod.jpg
 heroTitle: Виносна антена для керування FPV дронами (5.8)
 heroSubtitle: Виносна антена
 ---
-![](/img/2024-05-27-22.18.04.jpg)
+![](/img/img_3670.jpg)
 
 ![]()
 
