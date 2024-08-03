@@ -4,7 +4,7 @@ isVisible: true
 date: 2024-05-12T18:04:36.461Z
 tags:
   - repeater
-heroImage: /img/img_3308_mod.jpg
+heroImage: /img/img_3308_mod_v2.jpg
 heroTitle: Наземна станція для керування FPV дронами (5.8)
 heroSubtitle: Виносна антена
 ---

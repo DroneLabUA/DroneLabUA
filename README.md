@@ -8,7 +8,7 @@ _Web development of DroneLabUA site_
 
 ### Run
 
-`npm i`
+`npm i --legacy-peer-deps`
 
 `npm run develop`
 

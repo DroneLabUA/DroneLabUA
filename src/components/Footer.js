@@ -112,7 +112,7 @@ return (
                 // style={{ color: "#DFAC00" }}
               />
               <br/>
-              DroneLab © 2023
+              DroneLab © { new Date().getFullYear() }
               {/* <br/>
               <br/>
               <FontAwesomeIcon
