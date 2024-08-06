@@ -5,8 +5,8 @@ date: 2022-02-22T15:04:10.000Z
 tags:
   - repeater
 heroImage: /img/retranslator_v3.jpg
-heroTitle: FPV Ретранслятор
-heroSubtitle: "FPV Ретранслятор  "
+heroTitle: Ретранслятор. Mavic3
+heroSubtitle: Ретранслятор. Mavic3
 ---
 ![](/img/screenshot-2024-05-12-at-22.54.35.png)
 
