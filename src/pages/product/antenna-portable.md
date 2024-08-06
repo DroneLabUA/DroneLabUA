@@ -8,6 +8,7 @@ heroImage: /img/img_3308_mod_v2.jpg
 heroTitle: Наземна станція для керування FPV дронами (5.8)
 heroSubtitle: Виносна антена
 ---
+
 ![](/img/img_3670.jpg)
 
 ![]()
@@ -40,4 +41,4 @@ heroSubtitle: Виносна антена
 \*За запитом може бути доукомлектовано приймачем 5.8 з комплектом антен та радіопередавачем ELRS.
 Монітор Hawkeye Captain 
 
-Щоб створити запит, скористайтеся <a href="hhttps://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.

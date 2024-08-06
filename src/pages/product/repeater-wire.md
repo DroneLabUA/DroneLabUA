@@ -32,7 +32,7 @@ heroSubtitle: Наземна станція
 \*За запитом може бути доукомлектовано приймачем 5.8 з комплектом антен та радіопередавачем ELRS.
 Монітор Hawkeye Captain (8500грн)
 
-Щоб створити запит, скористайтеся <a href="hhttps://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
 ![](/img/img_3346.jpg)
 
