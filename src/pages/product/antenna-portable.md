@@ -8,12 +8,11 @@ heroImage: /img/img_3308_mod_v2.jpg
 heroTitle: Наземна станція для керування FPV дронами (5.8)
 heroSubtitle: Виносна антена
 ---
-
 ![](/img/img_3670_v2.jpg)
 
 ![]()
 
-![](/img/img_3346.jpg)
+![]()
 
 ![]()
 
