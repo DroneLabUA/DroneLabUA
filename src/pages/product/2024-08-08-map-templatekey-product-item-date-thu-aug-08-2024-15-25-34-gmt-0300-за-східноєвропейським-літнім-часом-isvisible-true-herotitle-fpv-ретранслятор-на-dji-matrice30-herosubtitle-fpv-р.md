@@ -6,4 +6,10 @@ heroImage: /img/photo_6_2024-08-08_15-21-40.jpg
 heroTitle: "FPV Ретранслятор на DJI Matrice30 "
 heroSubtitle: "FPV Ретранслятор на DJI Matrice30 "
 ---
-FPV Ретранслятор на DJI Matrice30 
+![](/img/photo_1_2024-08-08_15-21-40.jpg)
+
+![](/img/photo_2_2024-08-08_15-21-40.jpg)
+
+![](/img/photo_3_2024-08-08_15-21-40.jpg)
+
+FPV Ретранслятор на DJI Matrice30
