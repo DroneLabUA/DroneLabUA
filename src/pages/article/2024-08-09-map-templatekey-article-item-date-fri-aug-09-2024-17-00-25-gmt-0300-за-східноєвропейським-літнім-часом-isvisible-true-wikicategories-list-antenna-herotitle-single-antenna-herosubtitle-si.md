@@ -11,3 +11,7 @@ wikiCategories:
 ![](/img/single-antenna_1mast.jpg)
 
 ![](/img/single-antenna_a_box.jpg)
+
+![](/img/antenna_user_box.jpg)
+
+![](/img/cable-7pin-to-7pin_25m.jpg)
