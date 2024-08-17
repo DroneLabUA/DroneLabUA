@@ -8,7 +8,7 @@ heroImage: /img/retranslator_v3.jpg
 heroTitle: FPV ретранслятор на Dji Mavic3. V3
 heroSubtitle: FPV ретранслятор на Dji Mavic3. V3
 ---
-![](/img/img_3726.jpg)
+![](/img/retranslator-v3.png)
 
 # FPV ретранслятор, для встановлення на Dji Mavic3
 
@@ -28,10 +28,10 @@ heroSubtitle: FPV ретранслятор на Dji Mavic3. V3
 \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
-![](/img/img_3728.jpg)
+![]()
 
-![](/img/img_3730.jpg)
+![]()
 
-![](/img/img_3731.jpg)
+![]()
 
 ![](/img/screenshot-2024-05-12-at-23.06.50.png)
