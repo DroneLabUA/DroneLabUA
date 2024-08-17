@@ -4,7 +4,7 @@ isVisible: true
 date: 2024-08-17T11:13:43.440Z
 tags:
   - repeater
-heroImage: /img/retranslator_v3.jpg
+heroImage: /img/img_3734.jpg
 heroTitle: "FPV ретранслятор на Dji Mavic3 з зовнішнім живленням. V1 "
 heroSubtitle: "FPV ретранслятор на Dji Mavic3 з зовнішнім живленням. V1  "
 ---
