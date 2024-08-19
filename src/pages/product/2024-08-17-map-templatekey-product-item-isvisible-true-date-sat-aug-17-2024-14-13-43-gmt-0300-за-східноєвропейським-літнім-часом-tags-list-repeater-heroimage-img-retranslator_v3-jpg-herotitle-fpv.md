@@ -8,7 +8,7 @@ heroImage: /img/обʼєкт-1-.png
 heroTitle: "FPV ретранслятор на Dji Mavic3 з зовнішнім живленням. V1 "
 heroSubtitle: "FPV ретранслятор на Dji Mavic3 з зовнішнім живленням. V1  "
 ---
-![](/img/img_3726.jpg)
+![](/img/img_3726_v2.jpg)
 
 # FPV ретранслятор з зовнішнім живленням для встановлення на Dji Mavic3
 
