@@ -34,3 +34,5 @@ heroSubtitle: "FPV ретранслятор на Dji Mavic3 з зовнішні�
 
 ![](/img/img_3731.jpg)
 
+<iframe width="1280" height="729" src="https://www.youtube.com/embed/xdMoH2-NGFI" title="Ретранслятор ФПВ з зовнішнім живленням #fpvukraine #ретранслятор #mavic3 #фпв #ЗСУ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
