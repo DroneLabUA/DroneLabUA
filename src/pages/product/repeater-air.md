@@ -30,9 +30,9 @@ heroSubtitle: FPV ретранслятор на Dji Mavic3. V3
 
 ![](/img/retranslator-v3.png)
 
-![](/img/img_3747.jpg)
+![](/img/img_3747_v2.jpg)
 
-![](/img/img_3743.jpg)
+![](/img/img_3743_v2.jpg)
 
 ![](/img/screenshot-2024-05-12-at-23.06.50.png)
 
