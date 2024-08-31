@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 path: /
-heroImage: /img/img_0879.jpeg
+heroImage: /img/img_3839.jpg
 heroTitle: DroneLab
 heroSubtitle: Дрони для потреб ЗСУ
 ---
