@@ -8,10 +8,6 @@ heroSubtitle: "FPV Ретранслятор на DJI Matrice30 "
 ---
 ![](/img/img_3841.jpg)
 
-![](/img/img_3834.jpg)
-
-![](/img/img_3843.jpg)
-
 # FPV Ретранслятор на DJI Matrice30 V1
 
 | **ТТХ**          |                    |
@@ -23,13 +19,13 @@ heroSubtitle: "FPV Ретранслятор на DJI Matrice30 "
 | АКБ              | 2S1P               |
 | Вага             | кг                 |
 
-\* Можлива установка двох антен True RC X-Ray
-
+\* Можлива установка двох антен True RC X-Ray та інших комбінацій з антенами хелікс, ягі..
 \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
-![](<>)
-![](<>)
+![](/img/img_3834.jpg)
+
+![](/img/img_3843.jpg)
 
 ![](/img/photo_3_2024-08-08_15-21-40.jpg)
 
