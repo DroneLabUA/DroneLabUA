@@ -23,18 +23,16 @@ heroSubtitle: Наземна станція
 
 В комплект входить:
 щогли (2шт), кабель  з роз'ємами,
-передавач tbs crossfire micro tx v2,
+передавач crossfire TX,
 відеоприймач 1.2,
-антена TrueRc singularity 1.3,
-антена типу Yagi 750-905,
+антена відео сигнала
+антена керування
 захисний кейс для транспортування. 
 
-\*За запитом може бути доукомлектовано приймачем 5.8 з комплектом антен та радіопередавачем ELRS.
-Монітор Hawkeye Captain (8500грн)
+\*За запитом може бути доукомлектовано монітором Hawkeye Captain
 
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
-![](/img/img_3346.jpg)
 
 ![](/img/зовнішня-антена.png)
 
