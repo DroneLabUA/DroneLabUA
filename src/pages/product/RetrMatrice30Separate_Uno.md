@@ -17,7 +17,7 @@ heroSubtitle: FPV ретранслятор на Matrice30 під UNO з розн
 | ﻿Керування       | Crossfire/ELRS﻿     |
 | П﻿риймач         | Crossfire Diversity |
 | АКБ              | 2S1P                |
-| Вага             | <1кг                |
+| Вага             | ~900г                  |
 
 Е﻿крановані модулі.
 
