@@ -54,12 +54,12 @@ export const ArticleItemTemplate = ({
           <div className="columns">
             <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
 
-              <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+              <nav className="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
                 <ul>
                   <li><Link to="/wiki">База знань</Link></li>
                   <li><Link to={wikiCategoryLink}>{ wikiCategories }</Link></li>
                     {/* eslint-disable-next-line */}
-                    <li class="is-active"><a href="#" aria-current="page">{ heroTitle } { wikiCategories }</a></li>
+                  <li className="is-active"><a href="#" aria-current="page">{ heroTitle } { wikiCategories }</a></li>
                 </ul>
               </nav>
 

@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { kebabCase } from "lodash";
+import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 // import { graphql } from "gatsby";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 // import { getImage } from "gatsby-plugin-image";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons'
@@ -15,6 +15,7 @@ import Layout from "../components/Layout";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Content, { HTMLContent } from "../components/Content";
 import ProductList from "../components/ProductList";
+const _ = require('lodash')
 
 // eslint-disable-next-line
 export const ProductItemTemplate = ({
@@ -26,19 +27,72 @@ export const ProductItemTemplate = ({
   // description,
   helmet,
   content,
+  // tags,
+  categories,
   contentComponent,
 }) => {
   // const herroImage = getImage(heroImage) || heroImage;
   const PostContent = contentComponent || Content;
+  const categoryLink = `/category/${_.kebabCase(categories)}/`;
+  const categoryTitle = `${categories == 'Repeaters' ? "Ретранслятори" : "FPV Дрони"}`;
 
   return (
     <div>
       {helmet || ""}
-      <section className="section">
-        <div className="container content">
+        <section className="section">
+
+          <div className="container mt-5 mb-5">
+            <div className="columns">
+              <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
+
+              <nav className="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+                <ul>
+                  <li><Link to="/">Головна</Link></li>
+                  <li><Link to={categoryLink}>{ categoryTitle }</Link></li>
+                    {/* eslint-disable-next-line */}
+                  <li className="is-active"><a href="#" aria-current="page">{ heroTitle } { categories }</a></li>
+                </ul>
+              </nav>
+
+              {/* <hr/> */}
+
+              {/* <div>
+                <span>Головна / </span>
+              {categories && categories.length ? (
+                <span>
+                    {categories.map((category) => (
+                      <span key={category + `category`}>
+                        <Link to={`/categories/${kebabCase(category)}/`}>{category}</Link>
+                      </span>
+                    ))}
+                </span>
+              ) : null}
+                <span> / { heroTitle }</span>
+              </div>
+              <hr/> */}
+
+            </div>
+          </div>
+
           <div className="columns">
             <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
-              {isVisible ? <PostContent className="mb-6" content={content} /> : <div class="notification is-danger"><FontAwesomeIcon icon={faTriangleExclamation} /> This product is <b>hiden</b>. <br/> Also it is hiden from <b>Navbar Menu</b> and from <b>Product List</b>.</div> }
+
+
+              {isVisible ? <PostContent className="content mb-6" content={content} /> : <div class="notification is-danger"><FontAwesomeIcon icon={faTriangleExclamation} /> This product is <b>hiden</b>. <br/> Also it is hiden from <b>Navbar Menu</b> and from <b>Product List</b>.</div> }
+
+              {/* <hr/>
+              {tags && tags.length ? (
+                <div style={{ marginTop: `4rem` }}>
+                  <span>Tags:</span>
+                  &emsp;
+                    {tags.map((tag) => (
+                      <span key={tag + `tag`}>
+                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      </span>
+                    ))}
+                </div>
+              ) : null} */}
+
             </div>
           </div>
         </div>
@@ -80,6 +134,8 @@ const ProductItem = ({ data }) => {
             />
           </Helmet>
         }
+        // tags={post.frontmatter.tags}
+        categories={post.frontmatter.categories}
       />
     </Layout>
   );
@@ -115,6 +171,8 @@ export const ProductItemQuery = graphql`
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
+        tags
+        categories
       }
     }
   }

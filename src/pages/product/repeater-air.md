@@ -3,14 +3,16 @@ templateKey: product-item
 isVisible: true
 date: 2022-02-22T15:04:10.000Z
 tags:
-  - repeater
+  - Repeater
+categories:
+  - Repeaters
 heroImage: /img/retranslator_v3.jpg
 heroTitle: FPV ретранслятор на Dji Mavic3. V3
 heroSubtitle: FPV ретранслятор на Dji Mavic3. V3
 ---
-![](/img/img_3747_v2.jpg)
-
 # FPV ретранслятор, для встановлення на Dji Mavic3
+
+![](/img/img_3747_v2.jpg)
 
 | ТТХ                      |                             |
 | ------------------------ | --------------------------- |
@@ -36,4 +38,6 @@ heroSubtitle: FPV ретранслятор на Dji Mavic3. V3
 
 ![](/img/screenshot-2024-05-12-at-23.06.50.png)
 
-<iframe width="1280" height="721" src="https://www.youtube.com/embed/tkkOZXZanyY" title="FPV ретранслятор" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="youtube-iframe-container">
+  <iframe src="https://www.youtube.com/embed/tkkOZXZanyY" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>

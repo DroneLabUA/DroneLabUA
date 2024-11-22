@@ -1,8 +1,22 @@
 import * as React from "react";
 import { Link } from "gatsby";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJetFighter } from '@fortawesome/free-solid-svg-icons'
-import mainlogo from "../img/hornetlab_logo_v2.svg";
+
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faTiktok } from '@fortawesome/free-brands-svg-icons'
+
+
+import mainlogo from "../img/dronlab_logo_v1.svg";
+
+import YouTubeIcon from "../img/svg-icons/youtube_v1.svg";
+import FacebookIcon from "../img/svg-icons/facebook_v1.svg";
+import InstagramIcon from "../img/svg-icons/instagram_v1.svg";
+import TikTokIcon from "../img/svg-icons/tiktok_v1.svg";
+
 
 const Footer = () => {
 
@@ -86,15 +100,45 @@ return (
         </div>
       </div> */}
 
-      <div className="pt-6 pb-6">
+    <div className="pt-6 pb-6">
         <div className="content has-text-centered">
+
+          <p className="is-size-7 is-size-6-desktop"><small>Слідкуйте за нами</small></p>
+
+          <div className="buttons has-addons is-centered">
+            <a className="button is-dark is-responsive" href="https://www.youtube.com/@DroneLabUkraine" target="_blank" rel="noopener noreferrer">
+              <span>
+                {/* <img src={YouTubeIcon} alt="YouTube Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
+                <FontAwesomeIcon icon={faYoutube} size="1x" />
+              </span>
+              <span className="ml-2">YouTube</span>
+            </a>
+            <a className="button is-dark is-responsive" href="https://www.facebook.com/p/dronelab-61559130505682" target="_blank" rel="noopener noreferrer">
+              <span>
+                {/* <img src={FacebookIcon} alt="Facebook Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
+                <FontAwesomeIcon icon={faFacebookF} size="1x" />
+              </span>
+              <span className="ml-2">Facebook</span>
+            </a>
+            <a className="button is-dark is-responsive" href="https://www.instagram.com/dronelabukraine" target="_blank" rel="noopener noreferrer">
+              <span>
+                {/* <img src={InstagramIcon} alt="Instagram Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
+                <FontAwesomeIcon icon={faInstagram} size="1x" />
+              </span>
+              <span className="ml-2">Instagram</span>
+            </a>
+            <a className="button is-dark is-responsive" href="https://www.tiktok.com/@dronelabukraine" target="_blank" rel="noopener noreferrer">
+              <span>
+                {/* <img src={TikTokIcon} alt="TikTok Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
+                <FontAwesomeIcon icon={faTiktok} size="1x" />
+              </span>
+              <span className="ml-2">TikTok</span>
+            </a>
+          </div>
+            
           <p>
-          <Link to="/">
-            <img
-              src={mainlogo}
-              alt="Дронарня"
-              style={{ width: "70px" }}
-            />
+            <Link to="/">
+              <img src={mainlogo} alt="DroneLab Logo Footer" style={{ width: "70px" }} />
             </Link>
           </p>
           <p>
@@ -112,7 +156,7 @@ return (
                 // style={{ color: "#DFAC00" }}
               />
               <br/>
-              DroneLab © { new Date().getFullYear() }
+              2022 - { new Date().getFullYear() } © DroneLab
               {/* <br/>
               <br/>
               <FontAwesomeIcon

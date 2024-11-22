@@ -3,7 +3,9 @@ templateKey: product-item
 isVisible: true
 date: 2024-03-20T12:51:03.562Z
 tags:
-  - drone
+  - FPV Drone
+categories:
+  - FPV Drones
 heroImage: /img/ams_2338-edit_v2.jpg
 heroTitle: FPV Дрон HMARA 7" T
 heroSubtitle: FPV Дрон HMARA 7" Thermal
@@ -36,6 +38,8 @@ heroSubtitle: FPV Дрон HMARA 7" Thermal
 ![](/img/hmara7_night_2.jpg)
 
 ![](/img/img-20240327-wa0001.jpg)
+
+![](/img/ams_2338-edit_v2.jpg)
 
 <div class="youtube-iframe-container">
   <iframe src="https://www.youtube.com/embed/0LFdMk27UxM" referrerpolicy="strict-origin-when-cross-origin"></iframe>

@@ -3,14 +3,17 @@ templateKey: product-item
 isVisible: true
 date: 2022-02-23T15:04:10.000Z
 tags:
-  - drone
+  - FPV Drone
+categories:
+  - FPV Drones
 heroImage: /img/ams_1722-edit.jpg
 heroTitle: FPV Дрон HMARA 7" зі скидом
 heroSubtitle: FPV Дрон HMARA 7"
 ---
+# FPV дрон HMARA 7" з системою скидання
+
 ![](/img/ams_1722-edit.jpg)
 
-# FPV дрон HMARA 7" з системою скидання
 
 | ТТХ                                            |                |
 | ---------------------------------------------- | -------------- |

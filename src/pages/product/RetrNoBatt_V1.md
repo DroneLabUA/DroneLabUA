@@ -3,14 +3,16 @@ templateKey: product-item
 isVisible: true
 date: 2024-08-17T11:13:43.440Z
 tags:
-  - repeater
+  - Repeater
+categories:
+  - Repeaters
 heroImage: /img/обʼєкт-1-.png
 heroTitle: "FPV ретранслятор на Dji Mavic3 з зовнішнім живленням. V1 "
 heroSubtitle: "FPV ретранслятор на Dji Mavic3 з зовнішнім живленням. V1  "
 ---
-![](/img/img_3726_v2.jpg)
-
 # FPV ретранслятор з зовнішнім живленням для встановлення на Dji Mavic3
+
+![](/img/img_3726_v2.jpg)
 
 | ТТХ                      |                             |
 | ------------------------ | --------------------------- |
@@ -34,5 +36,6 @@ heroSubtitle: "FPV ретранслятор на Dji Mavic3 з зовнішні�
 
 ![](/img/img_3731.jpg)
 
-<iframe width="1280" height="729" src="https://www.youtube.com/embed/xdMoH2-NGFI" title="Ретранслятор ФПВ з зовнішнім живленням #fpvukraine #ретранслятор #mavic3 #фпв #ЗСУ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<div class="youtube-iframe-container">
+  <iframe src="https://www.youtube.com/embed/xdMoH2-NGFI" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>

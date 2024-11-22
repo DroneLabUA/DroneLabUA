@@ -3,14 +3,16 @@ templateKey: product-item
 isVisible: true
 date: 2022-02-21T15:04:10.000Z
 tags:
-  - repeater
+  - Repeater
+categories:
+  - Repeaters
 heroImage: /img/photo_10_2024-02-29_13-39-04_v2.jpg
 heroTitle: "Наземна станція для FPV ретранслятора (5.8) з фізично рознесеними антенами "
 heroSubtitle: Наземна станція
 ---
-![](/img/img_3338.jpg)
-
 # Наземна станція
+
+![](/img/img_3338.jpg)
 
 |                                                   |                  |
 | ------------------------------------------------- | ---------------- |

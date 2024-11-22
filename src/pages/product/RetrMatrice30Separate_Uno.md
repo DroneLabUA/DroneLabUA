@@ -2,13 +2,18 @@
 templateKey: product-item
 isVisible: true
 date: 2024-08-06T15:23:51.152Z
+tags:
+  - Repeater
+categories:
+  - Repeaters
 heroImage: /img/img_0872.jpeg
 heroTitle: FPV ретранслятор на Matrice30 під UNA з рознесеним керуванням
 heroSubtitle: FPV ретранслятор на Matrice30 під UNA з рознесеним керуванням
 ---
+# FPV ретранслятор Matrice30 з рознесеним керуванням під UNA
+
 ![](/img/img_0869.jpeg)
 
-# FPV ретранслятор Matrice30 з рознесеним керуванням під UNA
 
 | **ТТХ**          |                     |
 | ---------------- | ------------------- |
