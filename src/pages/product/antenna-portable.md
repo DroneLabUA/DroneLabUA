@@ -2,13 +2,13 @@
 templateKey: product-item
 isVisible: true
 date: 2024-05-12T18:04:36.461Z
+heroImage: /img/img_3308_mod_v2.jpg
+heroSubtitle: Виносна антена
 tags:
   - Repeater
 categories:
   - Repeaters
-heroImage: /img/img_3308_mod_v2.jpg
 heroTitle: Наземна станція для керування FPV дронами
-heroSubtitle: Виносна антена
 ---
 # Виносна антена
 
@@ -29,6 +29,8 @@ heroSubtitle: Виносна антена
 | Відео                          | 5.8              |
 | Керування                      | Crossfire / ELRS |
 | Живлення від акумулятора       | 2S-6S            |
+|Оріентовна вартість без монітора|28тис грн|
+|Оріентовна вартість з монітором|37тис грн| 
 |                                |                  |
 
 В комплект входить:
