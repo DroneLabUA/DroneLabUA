@@ -2,13 +2,13 @@
 templateKey: product-item
 isVisible: true
 date: 2024-08-08T12:25:34.304Z
+heroImage: /img/img_3841.jpg
+heroSubtitle: "FPV Ретранслятор на DJI Matrice30 "
 tags:
   - Repeater
 categories:
   - Repeaters
-heroImage: /img/img_3841.jpg
 heroTitle: "FPV Ретранслятор на DJI Matrice30 "
-heroSubtitle: "FPV Ретранслятор на DJI Matrice30 "
 ---
 # FPV Ретранслятор на DJI Matrice30 V1
 
@@ -23,6 +23,8 @@ heroSubtitle: "FPV Ретранслятор на DJI Matrice30 "
 | П﻿риймач         | Skyzone Steadyview |
 | АКБ              | 2S1P               |
 | Вага             | ~900г                 |
+|Оріентовна вартість|30тис грн|
+
 
 \* Можлива установка двох антен True RC X-Ray та інших комбінацій з антенами хелікс, ягі..
 \
