@@ -2,13 +2,13 @@
 templateKey: product-item
 isVisible: true
 date: 2022-02-22T15:04:10.000Z
+heroImage: /img/retranslator_v3.jpg
+heroSubtitle: FPV ретранслятор на Dji Mavic3. V3
 tags:
   - Repeater
 categories:
   - Repeaters
-heroImage: /img/retranslator_v3.jpg
 heroTitle: FPV ретранслятор на Dji Mavic3. V3
-heroSubtitle: FPV ретранслятор на Dji Mavic3. V3
 ---
 # FPV ретранслятор, для встановлення на Dji Mavic3
 
@@ -22,6 +22,8 @@ heroSubtitle: FPV ретранслятор на Dji Mavic3. V3
 | В﻿будований акумулятор   | 2S1P                        |
 | Час роботи без дозарядки | >20хв                       |
 | П﻿орт зарядки            | USB type-C                  |
+|Оріентовна вартість|25тис грн|
+
 
 Ретранслятор забезпечує радіо горизонт та надає можливість керування дроном на мінімальній висоті.
 
