@@ -1,4 +1,5 @@
 ---
+templateKey: article-item
 isVisible: true
 date: 2024-11-25T15:25:22.276Z
 heroImage: /img/bayckrc.jpg
