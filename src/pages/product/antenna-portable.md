@@ -3,12 +3,12 @@ templateKey: product-item
 isVisible: true
 date: 2024-05-12T18:04:36.461Z
 heroImage: /img/img_3308_mod_v2.jpg
-heroSubtitle: Виносна антена
+heroSubtitle: Наземна станція
 tags:
   - Repeater
+heroTitle: Наземна станція для керування FPV дронами
 categories:
   - Repeaters
-heroTitle: Наземна станція для керування FPV дронами
 ---
 # Виносна антена
 
