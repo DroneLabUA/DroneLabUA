@@ -6,9 +6,9 @@ heroImage: /img/photo_10_2024-02-29_13-39-04_v2.jpg
 heroSubtitle: Наземна станція
 tags:
   - Repeater
-categories:
-  - Repeaters
 heroTitle: "Наземна станція для FPV ретранслятора (5.8) "
+categories:
+  - Ground station
 ---
 # Наземна станція
 
