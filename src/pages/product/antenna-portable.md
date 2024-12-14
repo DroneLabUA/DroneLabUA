@@ -8,7 +8,7 @@ tags:
   - Repeater
 heroTitle: Наземна станція для керування FPV дронами
 categories:
-  - Repeaters
+  - Ground Stations
 ---
 # Виносна антена
 
