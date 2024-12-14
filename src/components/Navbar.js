@@ -86,7 +86,7 @@ const NavbarTemplate = (props) => {
           {/* <Link className="navbar-item" activeClassName="is-active" to="/feature">Напрямки діяльності</Link> */}
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <span className="navbar-link">Наші Вироби</span>
+            <span className="navbar-link">Вироби</span>
             <div className="navbar-dropdown">
 
               <Link className="navbar-item" activeClassName="is-active" to={categoryLinkRepeaters}>
@@ -118,7 +118,7 @@ const NavbarTemplate = (props) => {
           </div>
 
           {/* <div className="navbar-item has-dropdown is-hoverable">
-            <span className="navbar-link">Наші Вироби</span>
+            <span className="navbar-link">Вироби</span>
             <div className="navbar-dropdown">
               {posts && posts.map(({ node: post }) => (
                 (() => {
@@ -139,7 +139,7 @@ const NavbarTemplate = (props) => {
             </div>
           </div> */}
 
-          {/* <div className="navbar-item is-size-7 is-size-6-desktop">Наші Вироби</div> */}
+          {/* <div className="navbar-item is-size-7 is-size-6-desktop">Вироби</div> */}
 
           {/* <Link className="navbar-item" activeClassName="is-active" to={categoryLinkRepeaters}>
             <span className="mr-2">

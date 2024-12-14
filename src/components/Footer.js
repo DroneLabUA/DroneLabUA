@@ -114,7 +114,7 @@ return (
     <div className="pt-6 pb-6">
         <div className="content has-text-centered">
 
-          {/* <p className="is-size-7 is-size-6-desktop"><small>Наші Вироби:</small></p> */}
+          {/* <p className="is-size-7 is-size-6-desktop"><small>Вироби:</small></p> */}
 
           <div className="buttons has-addons is-centered">
             <Link className="button is-dark is-responsive" activeClassName="is-active" to="/">
