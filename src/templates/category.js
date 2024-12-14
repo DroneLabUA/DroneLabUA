@@ -39,8 +39,8 @@ const CategoryPageRoute = (props) =>  {
     )}`
   )}`;
   const categorySubTitle = `(${totalCount} ${
-    totalCount === 1 ? "вироб" : (
-      totalCount === 2 || totalCount === 3 || totalCount === 4 ? "вироба" : "виробів"
+    totalCount === 1 ? "виріб" : (
+      totalCount === 2 || totalCount === 3 || totalCount === 4 ? "вироби" : "виробів"
     )
   })`;
 
