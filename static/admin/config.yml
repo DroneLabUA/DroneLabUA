@@ -62,6 +62,7 @@ collections:
       - { label: Hero Title, name: heroTitle, widget: string }
       - { label: Hero Subtitle, name: heroSubtitle, widget: string }
       - { label: Body, name: body, widget: markdown }
+      - { label: Categories, name: categories, widget: list }
   - name: "article"
     label: "База знань"
     folder: "src/pages/article"
