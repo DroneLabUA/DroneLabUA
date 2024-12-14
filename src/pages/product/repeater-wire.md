@@ -8,7 +8,7 @@ tags:
   - Repeater
 heroTitle: "Наземна станція для FPV ретранслятора (5.8) "
 categories:
-  - Ground station
+  - Ground Stations
 ---
 # Наземна станція
 
