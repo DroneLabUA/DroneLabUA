@@ -4,6 +4,9 @@ import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
+
 const CategoriesPage = ({
   data: {
     allMarkdownRemark: { group },
@@ -13,15 +16,33 @@ const CategoriesPage = ({
   },
 }) => (
   <Layout>
+    <Helmet title={`Categories | ${title}`} />
     <section className="section">
-      <Helmet title={`Categories | ${title}`} />
-      <div className="container content">
+      <div className="container mt-5 mb-5">
         <div className="columns">
           <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
             
-            <div className="content mb-6">
+            <nav className="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+              <ul>
+                <li>
+                  <Link to="/">
+                    <span className="mr-2">
+                      <FontAwesomeIcon icon={faHouse} size="1x" />
+                    </span>
+                    <span>Головна</span>
+                  </Link>
+                </li>
+                <li className="is-active">
+                  <a href="#" aria-current="page">
+                    <span>Categories</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
 
-              <h1 className="title is-size-2 is-bold-light">Categories</h1>
+            <div className="content">
+
+              <h1 className="">Categories</h1>
               
               {group.map((category) => (
                 <p key={category.fieldValue}>
@@ -30,7 +51,7 @@ const CategoriesPage = ({
                   </Link>
                 </p>
               ))}
-              
+                
             </div>
           </div>
         </div>

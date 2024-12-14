@@ -25,6 +25,7 @@ import { faBurst } from '@fortawesome/free-solid-svg-icons'
 import { faSatelliteDish } from '@fortawesome/free-solid-svg-icons'
 import { faBomb } from '@fortawesome/free-solid-svg-icons'
 import { faJetFighter } from '@fortawesome/free-solid-svg-icons'
+import { faTowerCell } from '@fortawesome/free-solid-svg-icons'
 
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
@@ -37,10 +38,11 @@ const NavbarTemplate = (props) => {
   const { edges: posts } = props.data.allMarkdownRemark;
   const categoryLinkFPVDrones = `/category/${_.kebabCase('FPV Drones')}/`;
   const categoryLinkRepeaters = `/category/${_.kebabCase('Repeaters')}/`;
+  const categoryLinkGroundStations = `/category/${_.kebabCase('Ground Stations')}/`;
 
   return (
     <nav
-      className="navbar is-light is-fixed-top"
+      className="navbar is-info is-fixed-top"
       role="navigation"
       aria-label="main-navigation"
     >
@@ -83,8 +85,8 @@ const NavbarTemplate = (props) => {
           {/* <Link className="navbar-item" activeClassName="is-active" to="/">Головна</Link> */}
           {/* <Link className="navbar-item" activeClassName="is-active" to="/feature">Напрямки діяльності</Link> */}
 
-          {/* <div className="navbar-item has-dropdown is-hoverable">
-            <span className="navbar-link">Наші вироби</span>
+          <div className="navbar-item has-dropdown is-hoverable">
+            <span className="navbar-link">Наші Вироби</span>
             <div className="navbar-dropdown">
 
               <Link className="navbar-item" activeClassName="is-active" to={categoryLinkRepeaters}>
@@ -96,18 +98,27 @@ const NavbarTemplate = (props) => {
 
               <hr className="navbar-divider" />
 
+              <Link className="navbar-item" activeClassName="is-active" to={categoryLinkGroundStations}>
+                <span className="mr-2">
+                  <FontAwesomeIcon icon={faTowerCell} size="1x" />
+                </span>
+                <span>Наземні Станції</span>
+              </Link>
+
+              <hr className="navbar-divider" />
+
               <Link className="navbar-item" activeClassName="is-active" to={categoryLinkFPVDrones}>
                 <span className="mr-2">
-                  <FontAwesomeIcon icon={faJetFighter} size="1x" />
+                  <FontAwesomeIcon icon={faBomb} size="1x" />
                 </span>
-                <span>FPV дрони</span>
+                <span>FPV Дрони</span>
               </Link>
 
             </div>
-          </div> */}
+          </div>
 
           {/* <div className="navbar-item has-dropdown is-hoverable">
-            <span className="navbar-link">Наші вироби</span>
+            <span className="navbar-link">Наші Вироби</span>
             <div className="navbar-dropdown">
               {posts && posts.map(({ node: post }) => (
                 (() => {
@@ -128,14 +139,14 @@ const NavbarTemplate = (props) => {
             </div>
           </div> */}
 
-          {/* <div className="navbar-item is-size-7 is-size-6-desktop">Наші вироби</div> */}
+          {/* <div className="navbar-item is-size-7 is-size-6-desktop">Наші Вироби</div> */}
 
-          <Link className="navbar-item" activeClassName="is-active" to={categoryLinkRepeaters}>
+          {/* <Link className="navbar-item" activeClassName="is-active" to={categoryLinkRepeaters}>
             <span className="mr-2">
               <FontAwesomeIcon icon={faSatelliteDish} size="1x" />
             </span>
             <span>Ретранслятори</span>
-          </Link>
+          </Link> */}
 
           {/* <div className="navbar-item has-dropdown is-hoverable">
             <span className="navbar-link">
@@ -164,12 +175,12 @@ const NavbarTemplate = (props) => {
             </div>
           </div> */}
 
-          <Link className="navbar-item" activeClassName="is-active" to={categoryLinkFPVDrones}>
+          {/* <Link className="navbar-item" activeClassName="is-active" to={categoryLinkFPVDrones}>
             <span className="mr-2">
               <FontAwesomeIcon icon={faBomb} size="1x" />
             </span>
             <span>FPV дрони</span>
-          </Link>
+          </Link> */}
 
           {/* <div className="navbar-item has-dropdown is-hoverable">
             <span className="navbar-link">
@@ -242,28 +253,28 @@ const NavbarTemplate = (props) => {
 
           <div className="navbar-item">
             <div className="buttons has-addons is-centered">
-              <a className="button is-light is-responsive" href="https://www.youtube.com/@DroneLabUkraine" target="_blank" rel="noopener noreferrer">
+              <a className="button is-info is-responsive" href="https://www.youtube.com/@DroneLabUkraine" target="_blank" rel="noopener noreferrer">
                 <span>
                   {/* <img src={YouTubeIcon} alt="YouTube Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
                   <FontAwesomeIcon icon={faYoutube} size="1x" />
                 </span>
                 <span className="ml-2 is-hidden-desktop">YouTube</span>
               </a>
-              <a className="button is-light is-responsive" href="https://www.facebook.com/p/dronelab-61559130505682" target="_blank" rel="noopener noreferrer">
+              <a className="button is-info is-responsive" href="https://www.facebook.com/p/dronelab-61559130505682" target="_blank" rel="noopener noreferrer">
                 <span>
                   {/* <img src={FacebookIcon} alt="Facebook Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
                   <FontAwesomeIcon icon={faFacebookF} size="1x" />
                 </span>
                 <span className="ml-2 is-hidden-desktop">Facebook</span>
               </a>
-              <a className="button is-light is-responsive" href="https://www.instagram.com/dronelabukraine" target="_blank" rel="noopener noreferrer">
+              <a className="button is-info is-responsive" href="https://www.instagram.com/dronelabukraine" target="_blank" rel="noopener noreferrer">
                 <span>
                   {/* <img src={InstagramIcon} alt="Instagram Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
                   <FontAwesomeIcon icon={faInstagram} size="1x" />
                 </span>
                 <span className="ml-2 is-hidden-desktop">Instagram</span>
               </a>
-              <a className="button is-light is-responsive" href="https://www.tiktok.com/@dronelabukraine" target="_blank" rel="noopener noreferrer">
+              <a className="button is-info is-responsive" href="https://www.tiktok.com/@dronelabukraine" target="_blank" rel="noopener noreferrer">
                 <span>
                   {/* <img src={TikTokIcon} alt="TikTok Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
                   <FontAwesomeIcon icon={faTiktok} size="1x" />

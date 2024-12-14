@@ -38,7 +38,9 @@ export const ProductItemTemplate = ({
   const PostContent = contentComponent || Content;
   const categoryLink = `/category/${_.kebabCase(categories)}/`;
   const categoryTitle = `${categories == 'Repeaters' ? "Ретранслятори" : (
-    `${categories == 'FPV Drones' ? 'FPV Дрони' : categories}`
+    `${categories == 'FPV Drones' ? 'FPV Дрони' : (
+      `${categories == 'Ground Stations' ? 'Наземні Станції' : categories}`
+    )}`
   )}`;
 
   return (

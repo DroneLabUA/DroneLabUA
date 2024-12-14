@@ -13,7 +13,7 @@ const ProductListTemplate = (props) => {
       <div className="container pb-6">
         <div className="columns">
           <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
-            <p className="is-size-5 is-size-6-touch mb-5">Наші вироби:</p>
+            <p className="is-size-4 is-size-6-touch mb-5">Наші Вироби:</p>
             <div className="columns is-multiline has-text-centered">
               {posts && posts.map(({ node: post }) => (
 

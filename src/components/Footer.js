@@ -9,6 +9,11 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faTiktok } from '@fortawesome/free-brands-svg-icons'
 
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faSatelliteDish } from '@fortawesome/free-solid-svg-icons'
+import { faBomb } from '@fortawesome/free-solid-svg-icons'
+import { faTowerCell } from '@fortawesome/free-solid-svg-icons'
+
 
 import mainlogo from "../img/dronlab_logo_v1.svg";
 
@@ -17,8 +22,14 @@ import FacebookIcon from "../img/svg-icons/facebook_v1.svg";
 import InstagramIcon from "../img/svg-icons/instagram_v1.svg";
 import TikTokIcon from "../img/svg-icons/tiktok_v1.svg";
 
+import { kebabCase } from "lodash";
+const _ = require('lodash')
+
 
 const Footer = () => {
+  const categoryLinkFPVDrones = `/category/${_.kebabCase('FPV Drones')}/`;
+  const categoryLinkRepeaters = `/category/${_.kebabCase('Repeaters')}/`;
+  const categoryLinkGroundStations = `/category/${_.kebabCase('Ground Stations')}/`;
 
 return (
   <footer className="footer has-background-black has-text-white-ter p-6">
@@ -103,31 +114,66 @@ return (
     <div className="pt-6 pb-6">
         <div className="content has-text-centered">
 
+          {/* <p className="is-size-7 is-size-6-desktop"><small>Наші Вироби:</small></p> */}
+
+          <div className="buttons has-addons is-centered">
+            <Link className="button is-dark is-responsive" activeClassName="is-active" to="/">
+              <span>
+                <FontAwesomeIcon icon={faHouse} size="1x" />
+              </span>
+              <span className="ml-2">Головна</span>
+            </Link>
+            <Link className="button is-dark is-responsive" activeClassName="is-active" to={categoryLinkFPVDrones}>
+              <span>
+                <FontAwesomeIcon icon={faSatelliteDish} size="1x" />
+              </span>
+              <span className="ml-2">Ретранслятори</span>
+            </Link>
+            <Link className="button is-dark is-responsive" activeClassName="is-active" to={categoryLinkRepeaters}>
+              <span>
+                <FontAwesomeIcon icon={faTowerCell} size="1x" />
+              </span>
+              <span className="ml-2">Наземні Станції</span>
+            </Link>
+            <Link className="button is-dark is-responsive" activeClassName="is-active" to={categoryLinkGroundStations}>
+              <span>
+                <FontAwesomeIcon icon={faBomb} size="1x" />
+              </span>
+              <span className="ml-2">FPV Дрони</span>
+            </Link>
+            <Link className="button is-dark is-responsive" activeClassName="is-active" to="/donate">
+              <span>
+                <FontAwesomeIcon icon={faHouse} size="1x" />
+              </span>
+              <span className="ml-2">Контакти</span>
+            </Link>
+          </div>
+
           <p className="is-size-7 is-size-6-desktop"><small>Слідкуйте за нами</small></p>
 
           <div className="buttons has-addons is-centered">
-            <a className="button is-dark is-responsive" href="https://www.youtube.com/@DroneLabUkraine" target="_blank" rel="noopener noreferrer">
+            <a className="button is-link is-responsive" href="https://www.youtube.com/@DroneLabUkraine" target="_blank" rel="noopener noreferrer">
               <span>
                 {/* <img src={YouTubeIcon} alt="YouTube Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
                 <FontAwesomeIcon icon={faYoutube} size="1x" />
               </span>
               <span className="ml-2">YouTube</span>
             </a>
-            <a className="button is-dark is-responsive" href="https://www.facebook.com/p/dronelab-61559130505682" target="_blank" rel="noopener noreferrer">
+            <a className="button is-link is-responsive" href="https://www.facebook.com/p/dronelab-61559130505682" target="_blank" rel="noopener noreferrer">
               <span>
                 {/* <img src={FacebookIcon} alt="Facebook Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
                 <FontAwesomeIcon icon={faFacebookF} size="1x" />
               </span>
               <span className="ml-2">Facebook</span>
             </a>
-            <a className="button is-dark is-responsive" href="https://www.instagram.com/dronelabukraine" target="_blank" rel="noopener noreferrer">
+            <a className="button is-link is-responsive" href="https://www.instagram.com/dronelabukraine" target="_blank" rel="noopener noreferrer">
               <span>
                 {/* <img src={InstagramIcon} alt="Instagram Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
                 <FontAwesomeIcon icon={faInstagram} size="1x" />
               </span>
               <span className="ml-2">Instagram</span>
             </a>
-            <a className="button is-dark is-responsive" href="https://www.tiktok.com/@dronelabukraine" target="_blank" rel="noopener noreferrer">
+            <a className="button is-link is-responsive" href="https://www.tiktok.com/@dronelabukraine" target="_blank" rel="noopener noreferrer">
               <span>
                 {/* <img src={TikTokIcon} alt="TikTok Icon" style={{ height: "22px", width: "auto", padding: "0px", marginRight: ".75rem" }} /> */}
                 <FontAwesomeIcon icon={faTiktok} size="1x" />
@@ -141,6 +187,7 @@ return (
               <img src={mainlogo} alt="DroneLab Logo Footer" style={{ width: "70px" }} />
             </Link>
           </p>
+          
           <p>
             <small>
               <FontAwesomeIcon 

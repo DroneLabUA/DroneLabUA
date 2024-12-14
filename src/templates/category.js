@@ -34,52 +34,56 @@ const CategoryPageRoute = (props) =>  {
   //   totalCount === 1 ? "" : "s"
   // } in “${category}” category`;
   const categoryTitle = `${category === 'Repeaters' ? 'Ретранслятори' : (
-    `${category === 'FPV Drones' ? 'FPV Дрони' : category}`
+    `${category === 'FPV Drones' ? 'FPV Дрони' : (
+      `${category === 'Ground Stations' ? 'Наземні Станції' : category}`
+    )}`
   )}`;
-  const categorySubTitle = `(${totalCount} виробів)`;
+  const categorySubTitle = `(${totalCount} ${
+    totalCount === 1 ? "вироб" : (
+      totalCount === 2 || totalCount === 3 || totalCount === 4 ? "вироба" : "виробів"
+    )
+  })`;
 
   return (
-    <div>
+    <Layout>
       <Helmet title={`${category} | ${title}`} />
-        <Layout>
-        <section className="section">
-          <div className="container mt-5 mb-5">
-            <div className="columns">
-              <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
+      <section className="section">
+        <div className="container mt-5 mb-5">
+          <div className="columns">
+            <div className="column is-12 is-8-fullhd is-offset-2-fullhd">
 
-                <nav className="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
-                  <ul>
-                    <li>
-                      <Link to="/">
-                        <span className="mr-2">
-                          <FontAwesomeIcon icon={faHouse} size="1x" />
-                        </span>
-                        <span>Головна</span>
-                      </Link>
-                    </li>
-                    <li className="is-active">
-                      <a href="#" aria-current="page">
-                        <span>{categoryTitle}</span>
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-                
-                <div className="content">
-                  <h1 className="">
-                    <span>{categoryTitle}</span>
-                    <small> {categorySubTitle}</small>
-                  </h1>
-                  <div className="columns is-multiline has-text-centered">{postLinks}</div>
-                  {/* <p><Link className="button is-info" to="/categories/">Browse all categories</Link></p> */}
-                </div>
-
+              <nav className="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+                <ul>
+                  <li>
+                    <Link to="/">
+                      <span className="mr-2">
+                        <FontAwesomeIcon icon={faHouse} size="1x" />
+                      </span>
+                      <span>Головна</span>
+                    </Link>
+                  </li>
+                  <li className="is-active">
+                    <a href="#" aria-current="page">
+                      <span>{categoryTitle}</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              
+              <div className="content">
+                <h1 className="">
+                  <span>{categoryTitle}</span>
+                  <small> {categorySubTitle}</small>
+                </h1>
+                <div className="columns is-multiline has-text-centered">{postLinks}</div>
+                {/* <p><Link className="button is-info" to="/categories/">Browse all categories</Link></p> */}
               </div>
+
             </div>
           </div>
-        </section>
-      </Layout>
-    </div>
+        </div>
+      </section>
+    </Layout>
   );
 }
 
