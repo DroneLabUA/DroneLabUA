@@ -13,7 +13,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <div>
       <Helmet>
-        <html lang="en" className="has-navbar-fixed-top" />
+        <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
 
@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children }) => {
         {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"></link> */}
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <div className="has-navbar-fixed-top">{children}</div>
       <Footer />
 
       {/* <div className="youtube-iframe-container">

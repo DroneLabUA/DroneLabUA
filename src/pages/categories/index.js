@@ -22,6 +22,7 @@ const CategoriesPage = ({
             <div className="content mb-6">
 
               <h1 className="title is-size-2 is-bold-light">Categories</h1>
+              
               {group.map((category) => (
                 <p key={category.fieldValue}>
                   <Link to={`/category/${kebabCase(category.fieldValue)}/`}>

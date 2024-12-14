@@ -4,6 +4,9 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
+
 const CategoryPageRoute = (props) =>  {
 
   const posts = props.data.allMarkdownRemark.edges;
@@ -30,7 +33,9 @@ const CategoryPageRoute = (props) =>  {
   // const categoryTitle = `${totalCount} item${
   //   totalCount === 1 ? "" : "s"
   // } in “${category}” category`;
-  const categoryTitle = `${category === 'Repeaters' ? "Ретранслятори" : "FPV Дрони"}`;
+  const categoryTitle = `${category === 'Repeaters' ? 'Ретранслятори' : (
+    `${category === 'FPV Drones' ? 'FPV Дрони' : category}`
+  )}`;
   const categorySubTitle = `(${totalCount} виробів)`;
 
   return (
@@ -44,8 +49,19 @@ const CategoryPageRoute = (props) =>  {
 
                 <nav className="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
                   <ul>
-                    <li><Link to="/">Головна</Link></li>
-                    <li className="is-active"><a href="#" aria-current="page">{categoryTitle}</a></li>
+                    <li>
+                      <Link to="/">
+                        <span className="mr-2">
+                          <FontAwesomeIcon icon={faHouse} size="1x" />
+                        </span>
+                        <span>Головна</span>
+                      </Link>
+                    </li>
+                    <li className="is-active">
+                      <a href="#" aria-current="page">
+                        <span>{categoryTitle}</span>
+                      </a>
+                    </li>
                   </ul>
                 </nav>
                 

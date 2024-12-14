@@ -86,6 +86,29 @@ const NavbarTemplate = (props) => {
           {/* <div className="navbar-item has-dropdown is-hoverable">
             <span className="navbar-link">Наші вироби</span>
             <div className="navbar-dropdown">
+
+              <Link className="navbar-item" activeClassName="is-active" to={categoryLinkRepeaters}>
+                <span className="mr-2">
+                  <FontAwesomeIcon icon={faSatelliteDish} size="1x" />
+                </span>
+                <span>Ретранслятори</span>
+              </Link>
+
+              <hr className="navbar-divider" />
+
+              <Link className="navbar-item" activeClassName="is-active" to={categoryLinkFPVDrones}>
+                <span className="mr-2">
+                  <FontAwesomeIcon icon={faJetFighter} size="1x" />
+                </span>
+                <span>FPV дрони</span>
+              </Link>
+
+            </div>
+          </div> */}
+
+          {/* <div className="navbar-item has-dropdown is-hoverable">
+            <span className="navbar-link">Наші вироби</span>
+            <div className="navbar-dropdown">
               {posts && posts.map(({ node: post }) => (
                 (() => {
                   if (post.frontmatter.isVisible){
@@ -108,7 +131,7 @@ const NavbarTemplate = (props) => {
           {/* <div className="navbar-item is-size-7 is-size-6-desktop">Наші вироби</div> */}
 
           <Link className="navbar-item" activeClassName="is-active" to={categoryLinkRepeaters}>
-            <span className="mr-2 is-hidden-desktop">
+            <span className="mr-2">
               <FontAwesomeIcon icon={faSatelliteDish} size="1x" />
             </span>
             <span>Ретранслятори</span>
@@ -142,8 +165,8 @@ const NavbarTemplate = (props) => {
           </div> */}
 
           <Link className="navbar-item" activeClassName="is-active" to={categoryLinkFPVDrones}>
-            <span className="mr-2 is-hidden-desktop">
-              <FontAwesomeIcon icon={faJetFighter} size="1x" />
+            <span className="mr-2">
+              <FontAwesomeIcon icon={faBomb} size="1x" />
             </span>
             <span>FPV дрони</span>
           </Link>
@@ -175,14 +198,13 @@ const NavbarTemplate = (props) => {
             </div>
           </div> */}
 
-          {/* {posts.map((tag) => (
-            <div className="navbar-item" key={tag.fieldValue}>
-              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                {tag.fieldValue} 1 {tag.totalCount}
+          {/* {group.map((category) => (
+            <p key={category.fieldValue}>
+              <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
+                {category.fieldValue} ({category.totalCount})
               </Link>
-            </div>
+            </p>
           ))} */}
-
 
         </div>
 

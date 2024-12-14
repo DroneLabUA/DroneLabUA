@@ -9,6 +9,7 @@ import { Link, graphql } from "gatsby";
 // import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons'
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
 
 import Layout from "../components/Layout";
 // import FullWidthImage from "../components/FullWidthImage";
@@ -16,6 +17,8 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import ProductList from "../components/ProductList";
 const _ = require('lodash')
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // eslint-disable-next-line
 export const ProductItemTemplate = ({
@@ -34,7 +37,9 @@ export const ProductItemTemplate = ({
   // const herroImage = getImage(heroImage) || heroImage;
   const PostContent = contentComponent || Content;
   const categoryLink = `/category/${_.kebabCase(categories)}/`;
-  const categoryTitle = `${categories == 'Repeaters' ? "Ретранслятори" : "FPV Дрони"}`;
+  const categoryTitle = `${categories == 'Repeaters' ? "Ретранслятори" : (
+    `${categories == 'FPV Drones' ? 'FPV Дрони' : categories}`
+  )}`;
 
   return (
     <div>
@@ -47,10 +52,23 @@ export const ProductItemTemplate = ({
 
               <nav className="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
                 <ul>
-                  <li><Link to="/">Головна</Link></li>
-                  <li><Link to={categoryLink}>{ categoryTitle }</Link></li>
+                  <li>
+                    <Link to="/">
+                      <span className="mr-2">
+                        <FontAwesomeIcon icon={faHouse} size="1x" />
+                      </span>
+                      <span>Головна</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={categoryLink}>
+                      <span>{ categoryTitle }</span>
+                    </Link>
+                  </li>
                     {/* eslint-disable-next-line */}
-                  <li className="is-active"><a href="#" aria-current="page">{ heroTitle } { categories }</a></li>
+                  <li className="is-active">
+                    <a href="#" aria-current="page">{ heroTitle }</a>
+                  </li>
                 </ul>
               </nav>
 
