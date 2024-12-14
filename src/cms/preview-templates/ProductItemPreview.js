@@ -4,6 +4,7 @@ import { ProductItemTemplate } from '../../templates/product-item'
 
 const ProductItemPreview = ({ entry, getAsset, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
+  const categories = entry.getIn(['categories'])
 
   if (data) {
     return (
@@ -13,6 +14,7 @@ const ProductItemPreview = ({ entry, getAsset, widgetFor }) => {
         heroTitle={data.heroTitle}
         heroSubtitle={data.heroSubtitle}
         content={widgetFor('body')}
+        categories={categories && categories.toJS()}
       />
     )
   } else {
