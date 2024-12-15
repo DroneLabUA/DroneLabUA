@@ -24,8 +24,10 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import { faBurst } from '@fortawesome/free-solid-svg-icons'
 import { faSatelliteDish } from '@fortawesome/free-solid-svg-icons'
 import { faBomb } from '@fortawesome/free-solid-svg-icons'
+import { faMosquito } from '@fortawesome/free-solid-svg-icons'
 import { faJetFighter } from '@fortawesome/free-solid-svg-icons'
 import { faTowerCell } from '@fortawesome/free-solid-svg-icons'
+import { faDiceD20 } from '@fortawesome/free-solid-svg-icons'
 
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
@@ -86,7 +88,12 @@ const NavbarTemplate = (props) => {
           {/* <Link className="navbar-item" activeClassName="is-active" to="/feature">Напрямки діяльності</Link> */}
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <span className="navbar-link">Вироби</span>
+            <span className="navbar-link">
+              <span className="mr-2">
+                <FontAwesomeIcon icon={faDiceD20} size="1x" />
+              </span>
+              <span>Вироби</span>
+            </span>
             <div className="navbar-dropdown">
 
               <Link className="navbar-item" activeClassName="is-active" to={categoryLinkRepeaters}>
@@ -109,7 +116,7 @@ const NavbarTemplate = (props) => {
 
               <Link className="navbar-item" activeClassName="is-active" to={categoryLinkFPVDrones}>
                 <span className="mr-2">
-                  <FontAwesomeIcon icon={faBomb} size="1x" />
+                  <FontAwesomeIcon icon={faMosquito} size="1x" />
                 </span>
                 <span>FPV Дрони</span>
               </Link>

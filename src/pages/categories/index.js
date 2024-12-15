@@ -6,6 +6,7 @@ import Layout from "../../components/Layout";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faDiceD20 } from '@fortawesome/free-solid-svg-icons'
 
 const CategoriesPage = ({
   data: {
@@ -34,6 +35,9 @@ const CategoriesPage = ({
                 </li>
                 <li className="is-active">
                   <a href="#" aria-current="page">
+                    <span className="mr-2">
+                      <FontAwesomeIcon icon={faDiceD20} size="1x" />
+                    </span>
                     <span>Categories</span>
                   </a>
                 </li>

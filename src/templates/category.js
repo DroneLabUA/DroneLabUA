@@ -6,6 +6,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faDiceD20 } from '@fortawesome/free-solid-svg-icons'
 
 const CategoryPageRoute = (props) =>  {
 
@@ -62,6 +63,14 @@ const CategoryPageRoute = (props) =>  {
                       <span>Головна</span>
                     </Link>
                   </li>
+                  {/* <li>
+                    <Link to="/categories">
+                      <span className="mr-2">
+                        <FontAwesomeIcon icon={faDiceD20} size="1x" />
+                      </span>
+                      <span>Категорії</span>
+                    </Link>
+                  </li> */}
                   <li className="is-active">
                     <a href="#" aria-current="page">
                       <span>{categoryTitle}</span>
@@ -118,7 +127,6 @@ export const categoryPagePageQuery = graphql`
                   quality: 100
                   layout: CONSTRAINED
                 )
-
               }
             }
           }

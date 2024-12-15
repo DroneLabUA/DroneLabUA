@@ -10,6 +10,11 @@ import { Link, graphql } from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faList } from '@fortawesome/free-solid-svg-icons'
+import { faIndustry } from '@fortawesome/free-solid-svg-icons'
+import { faDiceD6 } from '@fortawesome/free-solid-svg-icons'
+import { faDiceD20 } from '@fortawesome/free-solid-svg-icons'
+
 
 import Layout from "../components/Layout";
 // import FullWidthImage from "../components/FullWidthImage";
@@ -37,7 +42,7 @@ export const ProductItemTemplate = ({
   // const herroImage = getImage(heroImage) || heroImage;
   const PostContent = contentComponent || Content;
   const categoryLink = `/category/${_.kebabCase(categories)}/`;
-  const categoryTitle = `${categories == 'Repeaters' ? "Ретранслятори" : (
+  const categoryTitle = `${categories == 'Repeaters' ? 'Ретранслятори' : (
     `${categories == 'FPV Drones' ? 'FPV Дрони' : (
       `${categories == 'Ground Stations' ? 'Наземні Станції' : categories}`
     )}`
@@ -62,12 +67,19 @@ export const ProductItemTemplate = ({
                       <span>Головна</span>
                     </Link>
                   </li>
+                  {/* <li>
+                    <Link to="/categories">
+                      <span className="mr-2">
+                        <FontAwesomeIcon icon={faDiceD20} size="1x" />
+                      </span>
+                      <span>Категорії</span>
+                    </Link>
+                  </li> */}
                   <li>
                     <Link to={categoryLink}>
                       <span>{ categoryTitle }</span>
                     </Link>
                   </li>
-                    {/* eslint-disable-next-line */}
                   <li className="is-active">
                     <a href="#" aria-current="page">{ heroTitle }</a>
                   </li>
