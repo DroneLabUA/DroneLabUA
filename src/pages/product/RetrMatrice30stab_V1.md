@@ -6,9 +6,9 @@ heroImage: /img/img_3966.jpg
 heroSubtitle: FPV ретранслятор на Matrice30 зі стабілізацією положення антенн
 tags:
   - Repeater
+heroTitle: FPV ретранслятор на Matrice30 зі стабілізацією положення антенн
 categories:
   - Repeaters
-heroTitle: FPV ретранслятор на Matrice30 зі стабілізацією положення антенн
 ---
 # FPV ретранслятор на Matrice30 зі стабілізацією положення антен
 
@@ -20,7 +20,7 @@ heroTitle: FPV ретранслятор на Matrice30 зі стабілізац
 | Робоча дистанція | 15 км              |
 | ﻿Керування       | Crossfire або ELRS﻿    |
 | П﻿риймач         | Skyzone Steadyview |
-| АКБ              | 2S1P               |
+| АКБ              | 3S1P               |
 | Вага             | ~900г                   |
 |Оріентовна вартість|35тис грн|
 
