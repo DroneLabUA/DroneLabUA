@@ -2,7 +2,7 @@
 templateKey: product-item
 isVisible: true
 date: 2024-12-23T11:17:30.997Z
-heroImage: /img/img_3966.jpg
+heroImage: /img/screenshot-2024-12-23-at-13.28.28.png
 heroSubtitle: FPV ретранслятор на Matrice300 зі стабілізацією положення антенн
 tags:
   - Repeater
