@@ -6,7 +6,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
-import { faDiceD20 } from '@fortawesome/free-solid-svg-icons'
+// import { faDiceD20 } from '@fortawesome/free-solid-svg-icons'
 
 const CategoryPageRoute = (props) =>  {
 

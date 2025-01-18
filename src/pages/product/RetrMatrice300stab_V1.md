@@ -28,6 +28,6 @@ categories:
 \
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
-![](/img/img_9743.jpg)
+![](/img/img_9743_v2.jpg)
 
-![](/img/img_9749.jpg)
+![](/img/img_9749_v2.jpg)

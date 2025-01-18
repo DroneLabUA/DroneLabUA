@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
+// import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 // import { graphql } from "gatsby";
 import { Link, graphql } from "gatsby";
@@ -10,17 +10,17 @@ import { Link, graphql } from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
-import { faList } from '@fortawesome/free-solid-svg-icons'
-import { faIndustry } from '@fortawesome/free-solid-svg-icons'
-import { faDiceD6 } from '@fortawesome/free-solid-svg-icons'
-import { faDiceD20 } from '@fortawesome/free-solid-svg-icons'
+// import { faList } from '@fortawesome/free-solid-svg-icons'
+// import { faIndustry } from '@fortawesome/free-solid-svg-icons'
+// import { faDiceD6 } from '@fortawesome/free-solid-svg-icons'
+// import { faDiceD20 } from '@fortawesome/free-solid-svg-icons'
 
 
 import Layout from "../components/Layout";
 // import FullWidthImage from "../components/FullWidthImage";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Content, { HTMLContent } from "../components/Content";
-import ProductList from "../components/ProductList";
+// import ProductList from "../components/ProductList";
 const _ = require('lodash')
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -129,7 +129,7 @@ export const ProductItemTemplate = ({
           </div>
         </div>
       </section>
-      <ProductList />
+      {/* <ProductList /> */}
       </div>
 
   );
@@ -193,16 +193,14 @@ export const ProductItemQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         heroImage {
           childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            gatsbyImageData(
+              quality: 100,
+              layout: FULL_WIDTH
+            )
           }
         }
         heroTitle
         heroSubtitle
-        heroImage {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
         tags
         categories
       }

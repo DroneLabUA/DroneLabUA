@@ -105,7 +105,10 @@ export const indexPageQuery = graphql`
       frontmatter {
         heroImage {
           childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            gatsbyImageData(
+              quality: 100,
+              layout: FULL_WIDTH
+            )
           }
         }
         heroTitle

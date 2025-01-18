@@ -4,40 +4,40 @@ import { Link, graphql, StaticQuery } from "gatsby";
 
 import MainLogo from "../img/dronlab_logo_v1.svg";
 
-import YouTubeIcon from "../img/svg-icons/youtube_v1.svg";
-import FacebookIcon from "../img/svg-icons/facebook_v1.svg";
-import InstagramIcon from "../img/svg-icons/instagram_v1.svg";
-import TikTokIcon from "../img/svg-icons/tiktok_v1.svg";
+// import YouTubeIcon from "../img/svg-icons/youtube_v1.svg";
+// import FacebookIcon from "../img/svg-icons/facebook_v1.svg";
+// import InstagramIcon from "../img/svg-icons/instagram_v1.svg";
+// import TikTokIcon from "../img/svg-icons/tiktok_v1.svg";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faTiktok } from '@fortawesome/free-brands-svg-icons'
-import { faGoogleDrive } from '@fortawesome/free-brands-svg-icons'
+// import { faGoogleDrive } from '@fortawesome/free-brands-svg-icons'
 
 import { faPenToSquare } from '@fortawesome/free-regular-svg-icons'
 import { faAddressBook } from '@fortawesome/free-regular-svg-icons'
 
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+// import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
-import { faBurst } from '@fortawesome/free-solid-svg-icons'
+// import { faBurst } from '@fortawesome/free-solid-svg-icons'
 import { faSatelliteDish } from '@fortawesome/free-solid-svg-icons'
-import { faBomb } from '@fortawesome/free-solid-svg-icons'
+// import { faBomb } from '@fortawesome/free-solid-svg-icons'
 import { faMosquito } from '@fortawesome/free-solid-svg-icons'
-import { faJetFighter } from '@fortawesome/free-solid-svg-icons'
+// import { faJetFighter } from '@fortawesome/free-solid-svg-icons'
 import { faTowerCell } from '@fortawesome/free-solid-svg-icons'
 import { faDiceD20 } from '@fortawesome/free-solid-svg-icons'
 
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+// import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-import { kebabCase } from "lodash";
+// import { kebabCase } from "lodash";
 const _ = require('lodash')
 
 
 const NavbarTemplate = (props) => {
   const [isActive, setIsActive] = useState(false);
-  const { edges: posts } = props.data.allMarkdownRemark;
+  // const { edges: posts } = props.data.allMarkdownRemark;
   const categoryLinkFPVDrones = `/category/${_.kebabCase('FPV Drones')}/`;
   const categoryLinkRepeaters = `/category/${_.kebabCase('Repeaters')}/`;
   const categoryLinkGroundStations = `/category/${_.kebabCase('Ground Stations')}/`;

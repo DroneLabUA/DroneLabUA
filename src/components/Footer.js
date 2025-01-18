@@ -17,12 +17,12 @@ import { faTowerCell } from '@fortawesome/free-solid-svg-icons'
 
 import mainlogo from "../img/dronlab_logo_v1.svg";
 
-import YouTubeIcon from "../img/svg-icons/youtube_v1.svg";
-import FacebookIcon from "../img/svg-icons/facebook_v1.svg";
-import InstagramIcon from "../img/svg-icons/instagram_v1.svg";
-import TikTokIcon from "../img/svg-icons/tiktok_v1.svg";
+// import YouTubeIcon from "../img/svg-icons/youtube_v1.svg";
+// import FacebookIcon from "../img/svg-icons/facebook_v1.svg";
+// import InstagramIcon from "../img/svg-icons/instagram_v1.svg";
+// import TikTokIcon from "../img/svg-icons/tiktok_v1.svg";
 
-import { kebabCase } from "lodash";
+// import { kebabCase } from "lodash";
 const _ = require('lodash')
 
 
@@ -117,36 +117,42 @@ return (
           {/* <p className="is-size-7 is-size-6-desktop"><small>Вироби:</small></p> */}
 
           <div className="buttons has-addons is-centered">
+            
             <Link className="button is-dark is-responsive" activeClassName="is-active" to="/">
               <span>
                 <FontAwesomeIcon icon={faHouse} size="1x" />
               </span>
               <span className="ml-2">Головна</span>
             </Link>
-            <Link className="button is-dark is-responsive" activeClassName="is-active" to={categoryLinkFPVDrones}>
+
+            <Link className="button is-dark is-responsive" activeClassName="is-active" to={categoryLinkRepeaters}>
               <span>
                 <FontAwesomeIcon icon={faSatelliteDish} size="1x" />
               </span>
               <span className="ml-2">Ретранслятори</span>
             </Link>
-            <Link className="button is-dark is-responsive" activeClassName="is-active" to={categoryLinkRepeaters}>
+            
+            <Link className="button is-dark is-responsive" activeClassName="is-active" to={categoryLinkGroundStations}>
               <span>
                 <FontAwesomeIcon icon={faTowerCell} size="1x" />
               </span>
               <span className="ml-2">Наземні Станції</span>
             </Link>
-            <Link className="button is-dark is-responsive" activeClassName="is-active" to={categoryLinkGroundStations}>
+            
+            <Link className="button is-dark is-responsive" activeClassName="is-active" to={categoryLinkFPVDrones}>
               <span>
                 <FontAwesomeIcon icon={faBomb} size="1x" />
               </span>
               <span className="ml-2">FPV Дрони</span>
             </Link>
+            
             <Link className="button is-dark is-responsive" activeClassName="is-active" to="/donate">
               <span>
                 <FontAwesomeIcon icon={faHouse} size="1x" />
               </span>
               <span className="ml-2">Контакти</span>
             </Link>
+          
           </div>
 
           <p className="is-size-7 is-size-6-desktop"><small>Слідкуйте за нами</small></p>

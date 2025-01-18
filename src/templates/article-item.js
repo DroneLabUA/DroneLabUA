@@ -138,11 +138,6 @@ export const ArticleItemQuery = graphql`
         wikiCategories
         heroTitle
         heroSubtitle
-        heroImage {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
       }
     }
   }

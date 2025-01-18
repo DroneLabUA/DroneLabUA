@@ -8,7 +8,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 export default function FullWidthImage(props) {
   const {
     img,
-    imgHeight = 600,
+    imgHeight = 650,
     imgPosition = "50% center",
     // logo,
     // logoHeight = 300,

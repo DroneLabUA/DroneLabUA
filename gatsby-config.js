@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "DroneLab",
     description:
-      "DroneLabUA - дрони-камікадзе, дрони під скид та ретранслятори для фронту",
+      "DroneLabUA - fpv дрони-камікадзе, дрони під скид та ретранслятори для фронту",
   },
   plugins: [
     // "gatsby-plugin-fontawesome-css",
@@ -52,6 +52,8 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 2048,
+              // maxHeight: 2048,
+              quality: 40,
             },
           },
           {
