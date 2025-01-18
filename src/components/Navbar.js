@@ -246,7 +246,7 @@ const NavbarTemplate = (props) => {
                 <span>
                   <FontAwesomeIcon icon={faPenToSquare} size="1x" />
                 </span>
-                <span className="ml-2">Подати заявку</span>
+                <span className="ml-2">Замовити</span>
                 {/* <span className="ml-2">
                   <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xs" />
                 </span> */}
