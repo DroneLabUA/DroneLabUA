@@ -37,11 +37,8 @@ categories:
 щогла, кабель з роз'ємами байонет,
 передавач ELRS або Crossfire,
 відеоприймач 1.2,
-антена Хелікс або TrueRc  Xray,
-антена типу Yagi,
+в стандартний комплект входять антени 2х Хелікс та Yagi, 
 захисний кейс для транспортування. 
 
-\*За запитом може бути доукомлектовано відеоприймачем 5.8 з комплектом антен,
-монітором Hawkeye Captain.
 
 Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
