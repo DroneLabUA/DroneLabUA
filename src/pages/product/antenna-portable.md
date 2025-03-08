@@ -14,7 +14,7 @@ categories:
 
 ![](/img/img_3670_v2.jpg)
 
-![](/img/img_3660.jpg)
+![](/img/img_3660_v1.jpg)
 
 ![]()
 
