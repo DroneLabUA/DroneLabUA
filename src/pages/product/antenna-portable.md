@@ -1,6 +1,6 @@
 ---
 templateKey: product-item
-isVisible: true
+isVisible: false
 date: 2024-05-12T18:04:36.461Z
 heroImage: /img/img_3308_mod_v2.jpg
 heroSubtitle: Наземна станція
