@@ -1,6 +1,6 @@
 ---
 templateKey: product-item
-isVisible: true
+isVisible: false
 date: 2024-08-09T10:27:33.130Z
 heroImage: /img/img_0887_v2.jpg
 heroSubtitle: FPV ретранслятор на Matrice30 з рознесеним керуванням
