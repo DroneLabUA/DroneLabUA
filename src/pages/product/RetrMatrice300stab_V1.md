@@ -3,10 +3,10 @@ templateKey: product-item
 isVisible: true
 date: 2024-12-23T11:17:30.997Z
 heroImage: /img/img_4429_v1.jpg
-heroSubtitle: FPV ретранслятор на Matrice300 зі стабілізацією положення антенн
+heroSubtitle: FPV ретранслятор на Matrice30/300 V5 зі стабілізацією положення антенн
 tags:
   - Repeater
-heroTitle: FPV ретранслятор на Matrice300 зі стабілізацією положення антенн
+heroTitle: FPV ретранслятор на Matrice30/300 V5 зі стабілізацією положення антенн
 categories:
   - Repeaters
 ---
@@ -19,7 +19,7 @@ categories:
 
 | **ТТХ**             |                     |
 | ------------------- | ------------------- |
-| Відео               | 5.8GHz / 1.2GH      |
+| Відео               | 5.8-6GHz / 1.2GH      |
 | Робоча дистанція    | 15 км               |
 | ﻿Керування          | Crossfire або ELRS﻿ |
 | П﻿риймач            | Skyzone Steadyview  |
