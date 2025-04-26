@@ -3,14 +3,14 @@ templateKey: product-item
 isVisible: true
 date: 2024-09-27T15:06:24.733Z
 heroImage: /img/img_3966.jpg
-heroSubtitle: FPV ретранслятор на Matrice30/300 зі стабілізацією положення антенн
+heroSubtitle: FPV ретранслятор на Matrice30/300 V1 зі стабілізацією положення антенн
 tags:
   - Repeater
-heroTitle: FPV ретранслятор на Matrice30/300 зі стабілізацією положення антенн
+heroTitle: FPV ретранслятор на Matrice30/300 V1 зі стабілізацією положення антенн
 categories:
   - Repeaters
 ---
-# FPV ретранслятор на Matrice30/300 зі стабілізацією положення антен
+# FPV ретранслятор на Matrice30/300 V1 зі стабілізацією положення антен 
 
 ![](/img/img_3966.jpg)
 
