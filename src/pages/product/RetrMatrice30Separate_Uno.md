@@ -1,6 +1,6 @@
 ---
 templateKey: product-item
-isVisible: true
+isVisible: false
 date: 2024-08-06T15:23:51.152Z
 heroImage: /img/img_0872.jpeg
 heroSubtitle: FPV ретранслятор на Matrice30 під UNA з рознесеним керуванням
