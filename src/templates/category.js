@@ -13,19 +13,30 @@ const CategoryPageRoute = (props) =>  {
   const posts = props.data.allMarkdownRemark.edges;
 
   const postLinks = posts.map((post) => (
-    <div className="column is-3" key={post.node.id}>
-      <div className="mb-3">
-        <Link to={post.node.fields.slug}>
-          {/* <span className="">{post.node.frontmatter.heroTitle}</span> */}
-          <PreviewCompatibleImage imageInfo={post.node.frontmatter.heroImage} />
-        </Link>
-      </div>
-      <div className="mb-4">
-        <div className="mb-2 is-size-5">{post.node.frontmatter.heroTitle}</div>
-        <div className="heading mb-0">{post.node.frontmatter.heroSubtitle}</div>
-        {/* <div className="heading mb-0">{post.node.id}</div> */}
-      </div>
-    </div>
+    
+    (() => {
+      if (post.node.frontmatter.isVisible){
+        return (
+
+          <div className="column is-3" key={post.node.id}>
+            <div className="mb-3">
+              <Link to={post.node.fields.slug}>
+                {/* <span className="">{post.node.frontmatter.heroTitle}</span> */}
+                <PreviewCompatibleImage imageInfo={post.node.frontmatter.heroImage} />
+              </Link>
+            </div>
+            <div className="mb-4">
+              <div className="mb-2 is-size-5">{post.node.frontmatter.heroTitle}</div>
+              <div className="heading mb-0">{post.node.frontmatter.heroSubtitle}</div>
+              {/* <div className="heading mb-0">{post.node.id}</div> */}
+            </div>
+          </div>
+
+        )
+      }
+      return null;
+    })()
+    
   ));
 
   const { category } = props.pageContext;
@@ -82,7 +93,7 @@ const CategoryPageRoute = (props) =>  {
               <div className="content">
                 <h1 className="">
                   <span>{categoryTitle}</span>
-                  <small> {categorySubTitle}</small>
+                  {/* <small> {categorySubTitle}</small> */}
                 </h1>
                 <div className="columns is-multiline has-text-centered">{postLinks}</div>
                 {/* <p><Link className="button is-info" to="/categories/">Browse all categories</Link></p> */}
@@ -118,6 +129,7 @@ export const categoryPagePageQuery = graphql`
             slug
           }
           frontmatter {
+            isVisible
             heroTitle
             heroSubtitle
             heroImage {
