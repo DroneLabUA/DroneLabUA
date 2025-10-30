@@ -34,12 +34,12 @@ const CategoriesPage = ({
                   </Link>
                 </li>
                 <li className="is-active">
-                  <a href="#" aria-current="page">
+                  <span aria-current="page">
                     <span className="mr-2">
                       <FontAwesomeIcon icon={faDiceD20} size="1x" />
                     </span>
                     <span>Categories</span>
-                  </a>
+                  </span>
                 </li>
               </ul>
             </nav>

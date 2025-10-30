@@ -255,7 +255,7 @@ const NavbarTemplate = (props) => {
           </div>
 
           {/* <hr className="navbar-divider" /> */}
-          
+
           <div className="navbar-item is-size-7 is-hidden-desktop">Слідкуйте за нами</div>
 
           <div className="navbar-item">
@@ -349,7 +349,7 @@ export default function Navbar() {
         query NavbarQuery {
           allMarkdownRemark(
             sort: { frontmatter: { date: DESC } }
-            filter: { frontmatter: { 
+            filter: { frontmatter: {
               templateKey: { eq: "product-item" }
             } }
           ) {

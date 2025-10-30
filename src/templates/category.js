@@ -13,7 +13,7 @@ const CategoryPageRoute = (props) =>  {
   const posts = props.data.allMarkdownRemark.edges;
 
   const postLinks = posts.map((post) => (
-    
+
     (() => {
       if (post.node.frontmatter.isVisible){
         return (
@@ -36,25 +36,25 @@ const CategoryPageRoute = (props) =>  {
       }
       return null;
     })()
-    
+
   ));
 
   const { category } = props.pageContext;
   const { title } = props.data.site.siteMetadata;
-  const { totalCount } = props.data.allMarkdownRemark;
+  // const { totalCount } = props.data.allMarkdownRemark;
   // const categoryTitle = `${totalCount} item${
   //   totalCount === 1 ? "" : "s"
-  // } in “${category}” category`;
+  // } in "${category}" category`;
   const categoryTitle = `${category === 'Repeaters' ? 'Ретранслятори' : (
     `${category === 'FPV Drones' ? 'FPV Дрони' : (
       `${category === 'Ground Stations' ? 'Наземні Станції' : category}`
     )}`
   )}`;
-  const categorySubTitle = `(${totalCount} ${
-    totalCount === 1 ? "виріб" : (
-      totalCount === 2 || totalCount === 3 || totalCount === 4 ? "вироби" : "виробів"
-    )
-  })`;
+  // const categorySubTitle = `(${totalCount} ${
+  //   totalCount === 1 ? "виріб" : (
+  //     totalCount === 2 || totalCount === 3 || totalCount === 4 ? "вироби" : "виробів"
+  //   )
+  // })`;
 
   return (
     <Layout>
@@ -83,13 +83,13 @@ const CategoryPageRoute = (props) =>  {
                     </Link>
                   </li> */}
                   <li className="is-active">
-                    <a href="#" aria-current="page">
+                    <span aria-current="page" className="link">
                       <span>{categoryTitle}</span>
-                    </a>
+                    </span>
                   </li>
                 </ul>
               </nav>
-              
+
               <div className="content">
                 <h1 className="">
                   <span>{categoryTitle}</span>

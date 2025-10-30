@@ -81,7 +81,7 @@ export const ProductItemTemplate = ({
                     </Link>
                   </li>
                   <li className="is-active">
-                    <a href="#" aria-current="page">{ heroTitle }</a>
+                    <span aria-current="page" className="link">{ heroTitle }</span>
                   </li>
                 </ul>
               </nav>

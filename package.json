@@ -1,8 +1,5 @@
 {
   "name": "dronelab-on-netlify-cms",
-  "description": "Web development of DroneLabUA site",
-  "version": "1.0.0",
-  "author": "Ihor Orlovskyi",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.1",
