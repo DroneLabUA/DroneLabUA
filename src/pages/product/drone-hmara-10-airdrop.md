@@ -1,6 +1,6 @@
 ---
 templateKey: product-item
-isVisible: false
+isVisible: true
 date: 2024-01-03T21:28:18.330Z
 heroImage: /img/ams_1729-edit.jpg
 heroSubtitle: FPV Дрон HMARA 10"
