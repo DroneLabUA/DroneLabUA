@@ -27,9 +27,7 @@ categories:
 Ретранслятор забезпечує радіо горизонт та надає можливість керування дроном на мінімальній висоті.
 
 В комплект входять ретранслятор, передавач (кросфаєр або елрс), вбудований аккумулятор,  антени: ProDrone хелікс 18, TrueRC Sniper, диполь 1.2GHz. 
-\
-\
-Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+
 
 ![](/img/img_3743_v2.jpg)
 
