@@ -14,7 +14,6 @@ categories:
 
 ![](/img/img_0869.jpeg)
 
-
 | **ТТХ**          |                     |
 | ---------------- | ------------------- |
 | Відео            | 5.8GHz / 1.2GH      |
@@ -22,14 +21,11 @@ categories:
 | ﻿Керування       | Crossfire/ELRS﻿     |
 | П﻿риймач         | Crossfire Diversity |
 | АКБ              | 3S1P                |
-| Вага             | ~900г                  |
+| Вага             | ~900г               |
 
 Е﻿крановані модулі.
 
 
-
-\
-Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
 
 ![](/img/img_0872.jpeg)
 
