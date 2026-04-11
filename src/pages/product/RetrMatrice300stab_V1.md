@@ -14,12 +14,11 @@ categories:
 
 # FPV ретранслятор на Matrice30/300 V5 зі стабілізацією положення антен
 
-
 ![](/img/img_4429_v1.jpg)
 
 | **ТТХ**             |                     |
 | ------------------- | ------------------- |
-| Відео               | 5.8-6GHz / 1.2GH      |
+| Відео               | 5.8-6GHz / 1.2GH    |
 | Робоча дистанція    | 15 км               |
 | ﻿Керування          | Crossfire або ELRS﻿ |
 | П﻿риймач            | Skyzone Steadyview  |
@@ -28,8 +27,7 @@ categories:
 | Оріентовна вартість | 35тис грн           |
 
 \* Можлива установка двох антен True RC X-Ray та інших комбінацій з антенами хелікс, ягі..
-\
-Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+
 
 ![](/img/img_9743_v2.jpg)
 
