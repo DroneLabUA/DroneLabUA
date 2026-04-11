@@ -1,14 +1,14 @@
 ---
 templateKey: product-item
-isVisible: true
+isVisible: false
 date: 2024-01-03T21:28:18.330Z
+heroImage: /img/ams_1729-edit.jpg
+heroSubtitle: FPV Дрон HMARA 10"
 tags:
   - FPV Drone
+heroTitle: FPV Дрон HMARA 10" зі скидом
 categories:
   - FPV Drones
-heroImage: /img/ams_1729-edit.jpg
-heroTitle: FPV Дрон HMARA 10" зі скидом
-heroSubtitle: FPV Дрон HMARA 10"
 ---
 # Бомбер HMARA 10" з системою скидання
 
