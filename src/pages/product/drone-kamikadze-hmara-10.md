@@ -2,13 +2,13 @@
 templateKey: product-item
 isVisible: true
 date: 2024-01-04T21:28:00.000Z
+heroImage: /img/ams_1697-edit.jpg
+heroSubtitle: FPV Дрон HMARA 10"
 tags:
   - FPV Drone
+heroTitle: FPV Дрон HMARA 10"
 categories:
   - FPV Drones
-heroImage: /img/ams_1697-edit.jpg
-heroTitle: FPV Дрон HMARA 10"
-heroSubtitle: FPV Дрон HMARA 10"
 ---
 # FPV дрон HMARA 10"
 
@@ -30,7 +30,6 @@ heroSubtitle: FPV Дрон HMARA 10"
 
 Усі дрони тестуються на полігоні з відповідним навантаженням.
 
-\
-Щоб створити запит, скористайтеся <a href="https://docs.google.com/forms/d/1TCApMWtctqZN7LEEKFTjVBQc5R3FQGf2tWWAGfGwWSU" target="_blank" rel="noopener noreferrer">**формою заявки**</a>.
+
 
 ![](/img/ams_1735-edit.jpg)
